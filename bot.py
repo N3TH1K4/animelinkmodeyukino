@@ -8,13 +8,13 @@ bot_token = '5069583926:AAFl9BFiu6ZyMOPHXxLQkWvkhjp46fPha3Y'
 # We have to manually call "start" if we want an explicit bot token
 bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 
-op=[Button.url('HELLO','https://t.me/tr0j3n')]
+op=[Button.url('Naruto','https://t.me/Naruto_and_NarutoShippuden')]
 
 with bot:
     @bot.on(events.NewMessage)
     async def start(event):
-        if '/anime naruto' or '/anime Naruto' in event.raw_text:
-            await event.reply('hi!',buttons=op)
+        if '/anime naruto' or '/anime Naruto' or '/anime NARUTO' in event.raw_text:
+            await event.reply('Link For Naruto And Naruto Shippuden 👇',buttons=op)
     
 
 
