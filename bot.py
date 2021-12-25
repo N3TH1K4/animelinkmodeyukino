@@ -17,6 +17,8 @@ with bot:
             await event.reply('Link For Naruto And Naruto Shippuden 👇',buttons=op)
         elif 'Naruto' in event.pattern_match.group(1):
             await event.reply('Link For Naruto And Naruto Shippuden 👇',buttons=op)
+        elif 'NARUTO' in event.pattern_match.group(1):
+            await event.reply('Link For Naruto And Naruto Shippuden 👇',buttons=op)
     
   
 
