@@ -10,8 +10,7 @@ bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 
 with bot:
     @bot.on(events.NewMessage)
-    async def my_event_handler(event):
-        if 'hello' in event.raw_text:
+    async def start(event):
             await event.reply('hi!')
     
 
