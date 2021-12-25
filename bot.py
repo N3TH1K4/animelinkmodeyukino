@@ -11,9 +11,9 @@ bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 op=[Button.url('Naruto','https://t.me/Naruto_and_NarutoShippuden')]
 
 with bot:
-    @bot.on(events.NewMessage)
+    @bot.on(events.NewMessage(pattern="^/anime (.*)"))
     async def start(event):
-        if '/anime naruto' or '/anime Naruto' or '/anime NARUTO' in event.raw_text:
+        if 'naruto' or 'Naruto' or 'NARUTO' in event.pattern_match.group(1):
             await event.reply('Link For Naruto And Naruto Shippuden 👇',buttons=op)
     
 
