@@ -13,7 +13,7 @@ op=[Button.url('HELLO','https://t.me/tr0j3n')]
 with bot:
     @bot.on(events.NewMessage)
     async def start(event):
-        if '/anime naruto' in event.raw_text:
+        if '/anime naruto' or '/anime Naruto' in event.raw_text:
             await event.reply('hi!',buttons=op)
     
 
