@@ -13,9 +13,12 @@ op=[Button.url('Naruto','https://t.me/Naruto_and_NarutoShippuden')]
 with bot:
     @bot.on(events.NewMessage(pattern="^/anime (.*)"))
     async def start(event):
-        if 'naruto' or 'Naruto' in event.pattern_match.group(1):
+        if 'naruto' in event.pattern_match.group(1):
+            await event.reply('Link For Naruto And Naruto Shippuden 👇',buttons=op)
+        elif 'Naruto' in event.pattern_match.group(1):
             await event.reply('Link For Naruto And Naruto Shippuden 👇',buttons=op)
     
+  
 
 
 bot.start()
