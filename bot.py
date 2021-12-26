@@ -141,9 +141,13 @@ with bot:
     async def iquery(query):
         if query.text =='help':
             result = query.builder.article('Help' , text='This is inline query' , buttons=[
-                [ Button.inline('A') , Button.inline('b') ],])
+                [ Button.inline('A', data =b'a') , Button.inline('b', data=b'b') ],])
             await query.answer([result])
-  
+            
+    @bot.on(events.CallbackQuery)
+    aync def callback(event):
+        if event.data = b'a':
+            await event.answer('This is a')
 
 bot.start()
 bot.run_until_disconnected()
