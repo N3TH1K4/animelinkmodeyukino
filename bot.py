@@ -147,7 +147,7 @@ with bot:
     @bot.on(events.CallbackQuery)
     async def callback(event):
         if event.data == b'a':
-            await event.send_message("""Anime Names Started with Letter A
+            await bot.send_message("""Anime Names Started with Letter A
 
 🤍A Place Further Than The Universe
 🤍A Silent Voice: Koe no katachi
