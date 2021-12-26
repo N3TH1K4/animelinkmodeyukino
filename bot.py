@@ -141,15 +141,15 @@ with bot:
     async def chatbot(event):
      sender = await event.get_sender(); SENDER = sender.id
     async with bot.conversation(SENDER) as conv:
-    await conv.send_message('Select a button :')
-    await conv.send_message('Yes or no?', buttons=[
-            Button.inline('Yes!', b'yes'),
-            Button.inline('Nope', b'no')    ])
+        await conv.send_message('Select a button :')
+        await conv.send_message('Yes or no?', buttons=[
+                Button.inline('Yes!', b'yes'),
+                Button.inline('Nope', b'no')    ])
 
-    if selected_button == 'yes' :
-            await event.reply('Download Link For Azur Lane (2019) 🤍👇🏻',buttons=link.azure)
-    else:
-        await event.reply('Download Link For Attack on Titan : Shingeki no kyojin (2013) 🤍👇🏻',buttons=link.aot)          
+        if selected_button == 'yes' :
+                await event.reply('Download Link For Azur Lane (2019) 🤍👇🏻',buttons=link.azure)
+        else:
+            await event.reply('Download Link For Attack on Titan : Shingeki no kyojin (2013) 🤍👇🏻',buttons=link.aot)          
             
 bot.start()
 bot.run_until_disconnected()
