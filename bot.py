@@ -137,14 +137,33 @@ with bot:
         elif 'Azure lane' in event.pattern_match.group(1):
             await event.reply('Download Link For Azur Lane (2019) 🤍👇🏻',buttons=link.azure)
       
-    @bot.on(events.NewMessage(pattern="^/index (.*)"))
+    @bot.on(events.NewMessage(pattern="^/index")
     async def index(event):
-            await event.reply('test 🤍👇🏻',buttons=[[ Button.inline('A', data =b'a')],])
+            await event.reply('Choose Any Button To Get The Anime List 🤍👇🏻',buttons=[[ Button.inline('A', data =b'a')],])
             
     @bot.on(events.CallbackQuery)
     async def callback(event):
         if event.data == b'a':
-            await event.reply('hello')
+            await event.reply("""Anime Names Started with Letter A
+
+🤍A Place Further Than The Universe
+🤍A Silent Voice: Koe no katachi
+🤍A Whisker Away
+🤍After the Rain
+🤍Ahiru No Sora
+🤍Ajin
+🤍Akame Ga Kill
+🤍Akira
+🤍Akudama Drive
+🤍Angel Beats
+🤍Anohana : The Flower We Saw That Day
+🤍Another
+🤍Aoi Bungaku Series
+🤍Appare-Ranman!
+🤍Assassination Classroom
+🤍Astra Lost in Space
+🤍Attack on Titan
+🤍Azur Lane""")
 
 bot.start()
 bot.run_until_disconnected()
