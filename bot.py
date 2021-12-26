@@ -13,7 +13,7 @@ bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 with bot:
     @bot.on(events.NewMessage(pattern="^/anime (.*)"))
     async def start(event):
-        if 'naruto' in event.pattern_match.group(1):
+        if 'naruto shippuden' in event.pattern_match.group(1):
             await event.reply('Link For Naruto And Naruto Shippuden 👇',buttons=link.op)
         elif 'Naruto' in event.pattern_match.group(1):
             await event.reply('Link For Naruto And Naruto Shippuden 👇',buttons=link.op)
