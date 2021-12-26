@@ -1,5 +1,5 @@
 import requests
-import link
+import link as link
 #"https://source.unsplash.com/1600x900/?{keyword},{keyword}"
 from telethon.sync import TelegramClient ,events,Button
 api_id = 4091096
