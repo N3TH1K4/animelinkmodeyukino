@@ -147,7 +147,7 @@ with bot:
     @bot.on(events.CallbackQuery)
     async def callback(event):
         if event.data == b'a':
-            await client.send_message("""
+            await event.reply("""
             Anime Names Started with Letter A
 
 🤍A Place Further Than The Universe
