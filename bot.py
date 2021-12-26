@@ -139,7 +139,7 @@ with bot:
       
     @bot.on(events.NewMessage(pattern="^/index"))
     async def index(event):
-            await event.reply('Choose Any Button To Get The Anime List 🤍👇🏻',buttons=[[ Button.inline('A', data =b'a')],])
+            await event.reply('Choose Any Button To Get The Anime List🏻',buttons=[[ Button.inline('A', data =b'a')],])
             
     @bot.on(events.CallbackQuery)
     async def callback(event):
