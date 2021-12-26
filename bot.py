@@ -137,24 +137,13 @@ with bot:
         elif 'Azure lane' in event.pattern_match.group(1):
             await event.reply('Download Link For Azur Lane (2019) 🤍👇🏻',buttons=link.azure)
       
-    
-    # Handle all callback queries and check data inside the handler
-    @bot.on(events.CallbackQuery)
-    async def handler(event):
-        if event.data == b'yes':
-            await event.answer('Correct answer!')
-
-# Handle only callback queries with data being b'no'
-    @bot.on(events.CallbackQuery(data=b'no'))
-    async def handler(event):
-    # Pop-up message with alert
-        await event.answer('Wrong answer!', alert=True)
-    @bot.on(events.NewMessage(pattern="^/test (.*)"))
-    async def but(event):    
-        await event.send_message(user, 'Yes or no?', buttons=[
-            Button.inline('Yes!', b'yes'),
-            Button.inline('Nope', b'no')
-        ])   
+    @bot.on(events,InlineQuery)
+    async def iquery(query):
+        if query.text =='help':
+            result = query.builder.article('Help' , text='This is inline query' , buttons=[
+                [ Button.inline('A') , Button.inline('b') ],])
+            await query.answer([result])
+  
 
 bot.start()
 bot.run_until_disconnected()
