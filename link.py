@@ -1,6 +1,7 @@
 from telethon.sync import TelegramClient ,events,Button
 
 
+#list A
 naruto=[Button.url('Naruto','https://t.me/Naruto_and_NarutoShippuden')]
 placefur=[Button.url('A Place Further Than The Universe','http://t.me/APlaceFurtherThanTheUniverse')]
 slientv=[Button.url('A Silent Voice','https://t.me/A_Silent_Voice_Koe_no_Katachi')]
@@ -15,5 +16,8 @@ angel=[Button.url('Angel Beats','https://t.me/Angel_Beats_Series')]
 anohana=[Button.url('Anohana','http://t.me/Anohana_Dual')]
 another=[Button.url('Another','https://t.me/Another_Dual')]
 aoi=[Button.url('Aoi Bungaku Series','http://t.me/AoiBungakuSeries')]
-naruto=[Button.url('Naruto','https://t.me/Naruto_and_NarutoShippuden')]
-naruto=[Button.url('Naruto','https://t.me/Naruto_and_NarutoShippuden')]
+Appare=[Button.url('Appare-Ranman!','https://t.me/Appare_Ranman_Series')]
+ass=[Button.url('Assassination Classroom','https://t.me/Assassination_Classroom_Dub')]
+astra=[Button.url('Astra Lost In The Space','http://t.me/Astra_Lost_In_Space')]
+aot=[Button.url('Attack On Titan','https://t.me/Attack_on_Titan_dub')]
+azure=[Button.url('Azure Lane','http://t.me/Azur_Lane_Series')]
