@@ -1,7 +1,7 @@
 import requests
 import link as link
 #"https://source.unsplash.com/1600x900/?{keyword},{keyword}"
-from telethon.sync import TelegramClient ,events ,Button , InlineQuery
+from telethon.sync import TelegramClient ,events ,Button
 api_id = 4091096
 api_hash = '6bb0682b4af56456201c3b9d8b99c94a'
 bot_token = '5069583926:AAFl9BFiu6ZyMOPHXxLQkWvkhjp46fPha3Y'
@@ -137,7 +137,7 @@ with bot:
         elif 'Azure lane' in event.pattern_match.group(1):
             await event.reply('Download Link For Azur Lane (2019) 🤍👇🏻',buttons=link.azure)
       
-    @bot.on(events,InlineQuery)
+    @bot.on(events.InlineQuery)
     async def iquery(query):
         if query.text =='help':
             result = query.builder.article('Help' , text='This is inline query' , buttons=[
