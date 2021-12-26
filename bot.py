@@ -151,10 +151,10 @@ with bot:
         await event.answer('Wrong answer!', alert=True)
         
     async def main():
-    await client.send_message(user, 'Yes or no?', buttons=[
-        Button.inline('Yes!', b'yes'),
-        Button.inline('Nope', b'no')
-    ])   
+        await client.send_message(user, 'Yes or no?', buttons=[
+            Button.inline('Yes!', b'yes'),
+            Button.inline('Nope', b'no')
+        ])   
 
 bot.start()
 bot.run_until_disconnected()
