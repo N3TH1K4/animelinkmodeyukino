@@ -139,15 +139,34 @@ with bot:
       
     @bot.on(events.InlineQuery)
     async def iquery(query):
-        if query.text =='help':
-            result = query.builder.article('Help' , text='This is inline query' , buttons=[
-                [ Button.inline('A', data =b'a') , Button.inline('b', data=b'b') ],])
+        if query.text =='Index':
+            result = query.builder.article('Index' , text='Choose a Letter' , buttons=[
+                [ Button.inline('A', data =b'a')],])
             await query.answer([result])
             
     @bot.on(events.CallbackQuery)
     async def callback(event):
         if event.data == b'a':
-            await event.answer('This is a')
+            await event.answer("""Anime Names Started with Letter A
+
+🤍A Place Further Than The Universe
+🤍A Silent Voice: Koe no katachi
+🤍A Whisker Away
+🤍After the Rain
+🤍Ahiru No Sora
+🤍Ajin
+🤍Akame Ga Kill
+🤍Akira
+🤍Akudama Drive
+🤍Angel Beats
+🤍Anohana : The Flower We Saw That Day
+🤍Another
+🤍Aoi Bungaku Series
+🤍Appare-Ranman!
+🤍Assassination Classroom
+🤍Astra Lost in Space
+🤍Attack on Titan
+🤍Azur Lane""" , alert=True)
 
 bot.start()
 bot.run_until_disconnected()
