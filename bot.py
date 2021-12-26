@@ -4,7 +4,7 @@ import link as link
 from telethon.sync import TelegramClient ,events ,Button
 api_id = 4091096
 api_hash = '6bb0682b4af56456201c3b9d8b99c94a'
-bot_token = '5069583926:AAFl9BFiu6ZyMOPHXxLQkWvkhjp46fPha3Y'
+bot_token = '2025919134:AAGAyAXR9hTJZu6v75-5ho8ao95mcppXacU'
 
 # We have to manually call "start" if we want an explicit bot token
 bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
@@ -163,7 +163,9 @@ with bot:
 🤍Assassination Classroom
 🤍Astra Lost in Space
 🤍Attack on Titan
-🤍Azur Lane""")
+🤍Azur Lane
+
+@Yukinonthecutebot""")
 
 bot.start()
 bot.run_until_disconnected()
