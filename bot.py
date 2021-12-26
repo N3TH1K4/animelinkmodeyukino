@@ -146,7 +146,7 @@ with bot:
             
     @bot.on(events.CallbackQuery)
     async def callback(event):
-        if event.data = b'a':
+        if event.data == b'a':
             await event.answer('This is a')
 
 bot.start()
