@@ -150,7 +150,7 @@ with bot:
     # Pop-up message with alert
         await event.answer('Wrong answer!', alert=True)
         
-    async def main():
+    async def main(bot):
         await bot.send_message(user, 'Yes or no?', buttons=[
             Button.inline('Yes!', b'yes'),
             Button.inline('Nope', b'no')
