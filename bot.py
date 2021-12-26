@@ -22,7 +22,7 @@ with bot:
             await event.reply('Download Link For Naruto And Naruto Shippuden 🤍👇🏻',buttons=link.naruto)
             
             
-            
+ #Letter "A"           
         elif 'a place further than the universe' in event.pattern_match.group(1):
             await event.reply('Download Link For A Place Further Than The Universe :Sora yori mo Tooi Basho (2018) 🤍👇🏻',buttons=link.placefur)
         elif 'place further' in event.pattern_match.group(1):
@@ -169,11 +169,24 @@ with bot:
             
             
             
- #index buttons mode     
+ #index buttons mode 
+
     @bot.on(events.NewMessage(pattern="^/index"))
     async def index(event):
             await event.reply('🤍 Choose Any Button To Get The Anime List 🤍',buttons=[[ Button.inline('A', data =b'a')],])
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+ #callback Queries 
+
     @bot.on(events.CallbackQuery)
     async def callback(event):
         if event.data == b'a':
