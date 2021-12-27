@@ -9,7 +9,7 @@ bot_token = '2025919134:AAGAyAXR9hTJZu6v75-5ho8ao95mcppXacU'
 # We have to manually call "start" if we want an explicit bot token
 bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 txt = '🤍 Choose Any Button To Get The Animes That Can Download Using /anime <name> 🤍'
-query = event.pattern_match.group(1)
+dwn = 'Is This The One You Were Searching? Here Some Download Links According To The Searched Query 🤍👇'
 
 with bot:
     @bot.on(events.NewMessage(pattern="^/anime (.*)"))
@@ -17,134 +17,134 @@ with bot:
     async def start(event):   
  
         if 'naruto shippuden' in event.pattern_match.group(1):
-            await event.reply('Download Link For Naruto And Naruto Shippuden 🤍👇🏻',buttons=link.naruto)
+            await event.reply(dwn,buttons=link.naruto)
         elif 'Naruto' in event.pattern_match.group(1):
-            await event.reply('Download Link For Naruto And Naruto Shippuden 🤍👇🏻',buttons=link.naruto)
+            await event.reply(dwn,buttons=link.naruto)
         elif 'NARUTO' in event.pattern_match.group(1):
-            await event.reply('Download Link For Naruto And Naruto Shippuden 🤍👇🏻',buttons=link.naruto)
+            await event.reply(dwn,buttons=link.naruto)
             
             
  #Letter "A"           
         elif 'a place further than the universe' in event.pattern_match.group(1):
-            await event.reply('Download Link For A Place Further Than The Universe :Sora yori mo Tooi Basho (2018) 🤍👇🏻',buttons=link.placefur)
+            await event.reply(dwn,buttons=link.placefur)
         elif 'place further' in event.pattern_match.group(1):
-            await event.reply('Download Link For  A Place Further Than The Universe :Sora yori mo Tooi Basho (2018) 🤍👇🏻',buttons=link.placefur) 
+            await event.reply(dwn,buttons=link.placefur) 
             
             
         elif 'slient voice' in event.pattern_match.group(1):
-            await event.reply('Download Link For A Silent Voice : Koe no Katachi (2016) 🤍👇🏻',buttons=link.silentv)
+            await event.reply(dwn,buttons=link.silentv)
         elif 'a silent voice' in event.pattern_match.group(1):
-            await event.reply('Download Link For A Silent Voice : Koe no Katachi (2016) 🤍👇🏻',buttons=link.silentv)
+            await event.reply(dwn,buttons=link.silentv)
             
             
         elif 'whisker away' in event.pattern_match.group(1):
-            await event.reply('Download Link For A Whisker Away (2020) 🤍👇🏻',buttons=link.whiskera)
+            await event.reply(dwn,buttons=link.whiskera)
         elif 'whisker' in event.pattern_match.group(1):
-            await event.reply('Download Link For A Whisker Away (2020) 🤍👇🏻',buttons=link.whiskera)
+            await event.reply(dwn,buttons=link.whiskera)
             
             
         elif 'after the rain' in event.pattern_match.group(1):
-            await event.reply('Download Link For After the Rain : Koi wa Ameagari no You ni (2018) 🤍👇🏻',buttons=link.afterrain)
+            await event.reply(dwn,buttons=link.afterrain)
         elif 'rain' in event.pattern_match.group(1):
-            await event.reply('Download Link For After the Rain : Koi wa Ameagari no You ni (2018) 🤍👇🏻',buttons=link.afterrain)
+            await event.reply(dwn,buttons=link.afterrain)
             
             
         elif 'ahiru no' in event.pattern_match.group(1):
-            await event.reply('Download Link For Ahiru no Sora (2019) 🤍👇🏻',buttons=link.ahiruno)
+            await event.reply(dwn,buttons=link.ahiruno)
         elif 'ahiru no sora' in event.pattern_match.group(1):
-            await event.reply('Download Link For Ahiru no Sora (2019) 🤍👇🏻',buttons=link.ahiruno)
+            await event.reply(dwn,buttons=link.ahiruno)
             
             
         elif 'ajin' in event.pattern_match.group(1):
-            await event.reply(' Download Link For Ajin (2016) 🤍👇🏻',buttons=link.ajin)
+            await event.reply(dwn,buttons=link.ajin)
         elif 'Ajin' in event.pattern_match.group(1):
-            await event.reply('Download Link For Ajin (2016) 🤍👇🏻',buttons=link.ajin)
+            await event.reply(dwn,buttons=link.ajin)
             
             
         elif 'akame' in event.pattern_match.group(1):
-            await event.reply('Download Link For Akame ga Kill! (2014) 🤍👇🏻',buttons=link.akame)
+            await event.reply(dwn,buttons=link.akame)
         elif 'akame ga kill' in event.pattern_match.group(1):
-            await event.reply('Download Link For Akame ga Kill! (2014) 🤍👇🏻',buttons=link.akame)
+            await event.reply(dwn,buttons=link.akame)
 
             
         elif 'akira' in event.pattern_match.group(1):
-            await event.reply('Download Link For Akira (1988) 🤍👇🏻',buttons=link.akira)
+            await event.reply(dwn,buttons=link.akira)
         elif 'Akria' in event.pattern_match.group(1):
-            await event.reply('Download Link For Akira (1988) 🤍👇🏻',buttons=link.akira)       
+            await event.reply(dwn,buttons=link.akira)       
 
             
         elif 'akudama' in event.pattern_match.group(1):
-            await event.reply('Download Link For Akudama Drive (2020) 🤍👇🏻',buttons=link.akudama)
+            await event.reply(dwn,buttons=link.akudama)
         elif 'akudama drive' in event.pattern_match.group(1):
-            await event.reply('Download Link For Akudama Drive (2020) 🤍👇🏻',buttons=link.akudama)      
+            await event.reply(dwn,buttons=link.akudama)      
             
  
             
         elif 'angel' in event.pattern_match.group(1):
-            await event.reply('Download Link For Angel Beats (2010) 🤍👇🏻',buttons=link.angel)
+            await event.reply(dwn,buttons=link.angel)
         elif 'angel beats' in event.pattern_match.group(1):
-            await event.reply('Download Link For Angel Beats (2010) 🤍👇🏻',buttons=link.angel)   
+            await event.reply(dwn,buttons=link.angel)   
             
             
         elif 'anohana' in event.pattern_match.group(1):
-            await event.reply('Download Link For Anohana : The Flower We Saw That Day (2011) 🤍👇🏻',buttons=link.anohana)
+            await event.reply(dwn,buttons=link.anohana)
         elif 'Anohana' in event.pattern_match.group(1):
-            await event.reply('Download Link For Anohana : The Flower We Saw That Day (2011) 🤍👇🏻',buttons=link.anohana)   
+            await event.reply(dwn,buttons=link.anohana)   
             
             
             
         elif 'Another' in event.pattern_match.group(1):
-            await event.reply('Download Link For Another (2012) 🤍👇🏻',buttons=link.another)
+            await event.reply(dwn,buttons=link.another)
         elif 'another' in event.pattern_match.group(1):
-            await event.reply('Download Link For Another (2012) 🤍👇🏻',buttons=link.another)  
+            await event.reply(dwn,buttons=link.another)  
             
             
             
         elif 'aoi' in event.pattern_match.group(1):
-            await event.reply('Download Link For Aoi Bungaku Series (2009)  🤍👇🏻',buttons=link.aoi)
+            await event.reply(dwn,buttons=link.aoi)
         elif 'Aoi bungaku series' in event.pattern_match.group(1):
-            await event.reply('Download Link For Aoi Bungaku Series (2009)  🤍👇🏻',buttons=link.aoi)  
+            await event.reply(dwn,buttons=link.aoi)  
             
             
             
         elif 'appare' in event.pattern_match.group(1):
-            await event.reply('Download Link For Appare-Ranman! (2020) 🤍👇🏻',buttons=link.appare)
+            await event.reply(dwn,buttons=link.appare)
         elif 'Appare ranman' in event.pattern_match.group(1):
-            await event.reply('Download Link For Appare-Ranman! (2020) 🤍👇🏻',buttons=link.appare)  
+            await event.reply(dwn,buttons=link.appare)  
             
             
             
         elif 'assassination classroom' in event.pattern_match.group(1):
-            await event.reply('Download Link For Assassination Classroom; Ansatsu Kyoushitsu (2015) 🤍👇🏻',buttons=link.ass)
+            await event.reply(dwn,buttons=link.ass)
         elif 'assassination' in event.pattern_match.group(1):
-            await event.reply('Download Link For Assassination Classroom; Ansatsu Kyoushitsu (2015) 🤍👇🏻',buttons=link.ass)  
+            await event.reply(dwn,buttons=link.ass)  
             
             
             
         elif 'astra' in event.pattern_match.group(1):
-            await event.reply('Download Link For Astra Lost in Space : Kanata no Astra (2019) 🤍👇🏻',buttons=link.astra)
+            await event.reply(dwn,buttons=link.astra)
         elif 'Astra lost in the space' in event.pattern_match.group(1):
-            await event.reply('Download Link For Astra Lost in Space : Kanata no Astra (2019) 🤍👇🏻',buttons=link.astra)      
+            await event.reply(dwn,buttons=link.astra)      
             
             
             
         elif 'attack on titan' in event.pattern_match.group(1):
-            await event.reply('Download Link For Attack on Titan : Shingeki no kyojin (2013) 🤍👇🏻',buttons=link.aot)
+            await event.reply(dwn,buttons=link.aot)
         elif 'attack' in event.pattern_match.group(1):
-            await event.reply('Download Link For Attack on Titan : Shingeki no kyojin (2013) 🤍👇🏻',buttons=link.aot)  
+            await event.reply(dwn,buttons=link.aot)  
             
 
         elif 'azure' in event.pattern_match.group(1):
-            await event.reply('Download Link For Azur Lane (2019) 🤍👇🏻',buttons=link.azure)
+            await event.reply(dwn,buttons=link.azure)
         elif 'Azure lane' in event.pattern_match.group(1):
-            await event.reply('Download Link For Azur Lane (2019) 🤍👇🏻',buttons=link.azure)
+            await event.reply(dwn,buttons=link.azure)
             
             
             
 #----------------------------------------list B------------------------------------------------------------------------------#            
             
         elif 'beginning' in event.pattern_match.group(1):
-            await event.reply('Download Link For {query}  🤍👇🏻',buttons=link.b)
+            await event.reply(dwn,buttons=link.b)
            
             
             
