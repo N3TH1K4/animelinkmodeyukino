@@ -180,7 +180,7 @@ with bot:
 
     @bot.on(events.NewMessage(pattern="^/index"))
     async def index(event):
-            await event.edit(txt,buttons=[[ Button.inline('A', data =b'a')],])
+            await event.reply(txt,buttons=[[ Button.inline('A', data =b'a')],])
             
             
             
@@ -197,7 +197,7 @@ with bot:
     @bot.on(events.CallbackQuery)
     async def callback(event):
         if event.data == b'a':
-            await event.reply("""Anime Names Started with Letter A
+            await event.edit("""Anime Names Started with Letter A
 
 🤍A Place Further Than The Universe
 🤍A Silent Voice: Koe no katachi
