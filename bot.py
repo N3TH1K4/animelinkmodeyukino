@@ -14,7 +14,7 @@ with bot:
     @bot.on(events.NewMessage(pattern="^/anime (.*)"))
     
     async def start(event):
-    query = event.pattern_match.group(1)    
+    texxt = event.pattern_match.group(1)    
  
         if 'naruto shippuden' in event.pattern_match.group(1):
             await event.reply('Download Link For Naruto And Naruto Shippuden 🤍👇🏻',buttons=link.naruto)
@@ -144,7 +144,7 @@ with bot:
 #----------------------------------------list B------------------------------------------------------------------------------#            
             
         elif 'beginning' in event.pattern_match.group(1):
-            await event.reply('Download Link For {query} 🤍👇🏻',buttons=link.b)
+            await event.reply('Download Link For {texxt} 🤍👇🏻',buttons=link.b)
            
             
             
