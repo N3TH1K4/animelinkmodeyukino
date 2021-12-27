@@ -102,7 +102,7 @@ with bot:
             
         elif 'aoi' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.aoi)
-        elif 'Aoi bungaku series' in event.pattern_match.group(1):
+        elif 'Aoi bungaku' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.aoi)  
             
             
