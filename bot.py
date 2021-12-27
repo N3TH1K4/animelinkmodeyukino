@@ -13,8 +13,7 @@ bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 with bot:
     @bot.on(events.NewMessage(pattern="^/anime (.*)"))
     
-    async def start(event):
-    texxt = event.pattern_match.group(1)    
+    async def start(event):   
  
         if 'naruto shippuden' in event.pattern_match.group(1):
             await event.reply('Download Link For Naruto And Naruto Shippuden 🤍👇🏻',buttons=link.naruto)
@@ -144,7 +143,7 @@ with bot:
 #----------------------------------------list B------------------------------------------------------------------------------#            
             
         elif 'beginning' in event.pattern_match.group(1):
-            await event.reply('Download Link For {texxt} 🤍👇🏻',buttons=link.b)
+            await event.reply('Download Link For  🤍👇🏻',buttons=link.b)
            
             
             
