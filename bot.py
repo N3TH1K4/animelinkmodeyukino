@@ -180,7 +180,7 @@ with bot:
 
     @bot.on(events.NewMessage(pattern="^/index"))
     async def index(event):
-            await event.reply(txt,buttons=[[ Button.inline('A', data =b'a')],])
+            await event.edit_message(txt,buttons=[[ Button.inline('A', data =b'a')],])
             
             
             
