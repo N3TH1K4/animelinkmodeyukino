@@ -258,7 +258,7 @@ with bot:
         
         #leave
         elif event.data == b'left':
-                await event.delete(txt,buttons=[[ Button.inline('A', data =b'a')],[ Button.inline('Back', data =b'back')],])
+                await event.delete()
         
         #back mod
         elif event.data == b'back':
