@@ -180,7 +180,7 @@ with bot:
 
     @bot.on(events.NewMessage(pattern="^/index"))
     async def index(event):
-            await event.reply(txt,buttons=[[ Button.inline('A', data =b'a')],[ Button.inline('Back', data =b'back')],])
+            await event.reply(txt,buttons=[[ Button.inline('A', data =b'a')],[ Button.inline('Back', data =b'left')],])
             
             
             
@@ -219,8 +219,51 @@ with bot:
 🤍Azur Lane
 
 @Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        #leave
+        elif event.data == b'left':
+                await event.delete(txt,buttons=[[ Button.inline('A', data =b'a')],[ Button.inline('Back', data =b'back')],])
+        
+        #back mod
         elif event.data == b'back':
                 await event.edit(txt,buttons=[[ Button.inline('A', data =b'a')],[ Button.inline('Back', data =b'back')],])
+                
                 
 
 bot.start()
