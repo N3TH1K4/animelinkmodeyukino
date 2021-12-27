@@ -12,8 +12,9 @@ bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 
 with bot:
     @bot.on(events.NewMessage(pattern="^/anime (.*)"))
-    query = event.pattern_match.group(1)
+    
     async def start(event):
+    query = event.pattern_match.group(1)    
  
         if 'naruto shippuden' in event.pattern_match.group(1):
             await event.reply('Download Link For Naruto And Naruto Shippuden 🤍👇🏻',buttons=link.naruto)
