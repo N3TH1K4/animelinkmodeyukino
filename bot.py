@@ -219,9 +219,9 @@ with bot:
 🤍Azur Lane
 
 @Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])
-            elif event.data == b'back':
-                await event.reply(txt,buttons=[[ Button.inline('A', data =b'a')],[ Button.inline('Back', data =b'back')],])
-            
+        elif event.data == b'back':
+                await event.edit(txt,buttons=[[ Button.inline('A', data =b'a')],[ Button.inline('Back', data =b'back')],])
+                
 
 bot.start()
 bot.run_until_disconnected()
