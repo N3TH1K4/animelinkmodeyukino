@@ -8,7 +8,7 @@ bot_token = '2025919134:AAGAyAXR9hTJZu6v75-5ho8ao95mcppXacU'
 
 # We have to manually call "start" if we want an explicit bot token
 bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
-
+txt = '🤍 Choose Any Button To Get The Animes That Can Download Using /anime <name> 🤍'
 
 with bot:
     @bot.on(events.NewMessage(pattern="^/anime (.*)"))
@@ -178,7 +178,6 @@ with bot:
  #index buttons mode 
 
     @bot.on(events.NewMessage(pattern="^/index"))
-    txt = '🤍 Choose Any Button To Get The Animes That Can Download Using /anime <name> 🤍'
     async def index(event):
             await event.reply(txt,buttons=[[ Button.inline('A', data =b'a')],])
             
