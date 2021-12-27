@@ -180,7 +180,7 @@ with bot:
 
     @bot.on(events.NewMessage(pattern="^/index"))
     async def index(event):
-            await event.reply(txt,buttons=[[ Button.inline('A', data =b'a')],[ Button.inline('Back', data =b'left')],])
+            await event.reply(txt,buttons=[[ Button.inline('A', data =b'a'),Button.inline('A', data =b'b')],[ Button.inline('Back', data =b'left')],])
             
             
             
@@ -220,7 +220,13 @@ with bot:
 
 @Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])
         
-        
+        elif event.data == b'b':
+            await event.edit("""Anime Names Started with Letter B
+
+🤍B: The Beginning
+
+
+@Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])
         
         
         
