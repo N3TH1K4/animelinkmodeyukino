@@ -180,7 +180,7 @@ with bot:
 
     @bot.on(events.NewMessage(pattern="^/index"))
     async def index(event):
-            await event.reply(txt,buttons=[[ Button.inline('A', data =b'a')],])
+            await event.reply(txt,buttons=[[ Button.inline('A', data =b'a')],[ Button.inline('Back', data =b'back')],])
             
             
             
@@ -218,7 +218,10 @@ with bot:
 🤍Attack on Titan
 🤍Azur Lane
 
-@Yukinonthecutebot""")
+@Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])
+            elif event.data == b'back':
+                await event.reply(txt,buttons=[[ Button.inline('A', data =b'a')],[ Button.inline('Back', data =b'back')],])
+            
 
 bot.start()
 bot.run_until_disconnected()
