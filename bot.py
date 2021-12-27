@@ -199,31 +199,31 @@ with bot:
         if event.data == b'a':
             await event.edit("""Anime Names Started with Letter A
 
-🤍A Place Further Than The Universe
-🤍A Silent Voice: Koe no katachi
-🤍A Whisker Away
-🤍After the Rain
-🤍Ahiru No Sora
-🤍Ajin
-🤍Akame Ga Kill
-🤍Akira
-🤍Akudama Drive
-🤍Angel Beats
-🤍Anohana : The Flower We Saw That Day
-🤍Another
-🤍Aoi Bungaku Series
-🤍Appare-Ranman!
-🤍Assassination Classroom
-🤍Astra Lost in Space
-🤍Attack on Titan
-🤍Azur Lane
+🤍 `A Place Further Than The Universe`
+🤍 `A Silent Voice: Koe no katachi`
+🤍 `A Whisker Away`
+🤍 `After the Rain
+🤍 `Ahiru No Sora`
+🤍 `Ajin` 
+🤍 `Akame Ga Kill`
+🤍 `Akira`
+🤍 `Akudama Drive`
+🤍 `Angel Beats`
+🤍 `Anohana : The Flower We Saw That Day`
+🤍 `Another`
+🤍 `Aoi Bungaku Series`
+🤍 `Appare-Ranman!`
+🤍 `Assassination Classroom`
+🤍 `Astra Lost in Space`
+🤍 `Attack on Titan`
+🤍 `Azur Lane`
 
 @Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])
         
         elif event.data == b'b':
             await event.edit("""Anime Names Started with Letter B
 
-🤍B: The Beginning
+🤍 `B: The Beginning`
 
 
 @Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])
