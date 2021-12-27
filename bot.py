@@ -31,7 +31,7 @@ with bot:
             await event.reply(dwn,buttons=link.placefur) 
             
             
-        elif 'slient voice' in event.pattern_match.group(1):
+        elif 'silent voice' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.silentv)
         elif 'a silent voice' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.silentv)
@@ -202,7 +202,7 @@ with bot:
 🤍 `A Place Further Than The Universe`
 🤍 `A Silent Voice: Koe no katachi`
 🤍 `A Whisker Away`
-🤍 `After the Rain
+🤍 `After the Rain`
 🤍 `Ahiru No Sora`
 🤍 `Ajin` 
 🤍 `Akame Ga Kill`
