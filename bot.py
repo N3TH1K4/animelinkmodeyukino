@@ -262,7 +262,7 @@ with bot:
         
         #back mod
         elif event.data == b'back':
-                await event.edit(txt,buttons=[[ Button.inline('A', data =b'a')],[ Button.inline('Back', data =b'back')],])
+                await event.edit(txt,buttons=[[ Button.inline('A', data =b'a')],[ Button.inline('Back', data =b'left')],])
                 
                 
 
