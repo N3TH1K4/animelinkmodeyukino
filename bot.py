@@ -32,9 +32,9 @@ with bot:
             
             
         elif 'silent voice' in event.pattern_match.group(1):
-            await event.reply(dwn,buttons=link.silentv)
+            await event.reply(dwn,buttons=link.slientv)
         elif 'a silent voice' in event.pattern_match.group(1):
-            await event.reply(dwn,buttons=link.silentv)
+            await event.reply(dwn,buttons=link.slientv)
             
             
         elif 'whisker away' in event.pattern_match.group(1):
