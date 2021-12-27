@@ -146,8 +146,86 @@ with bot:
         elif 'beginning' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.b)
            
+         elif 'baccano' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bac)
             
+        elif 'back' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.back) 
             
+        elif 'bake' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bake)
+            
+        elif 'baki' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.baki)  
+            
+        elif 'baku' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.baku)
+            
+        elif 'banana' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bana) 
+            
+        elif 'baraka' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bara)
+            
+        elif 'beast' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bea)
+            
+        elif 'beck' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.beck)
+            
+        elif 'beelz' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bee)  
+            
+        elif 'beyond' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.beyon)
+            
+        elif 'butler' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bb)  
+            
+        elif 'clover' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bc)
+            
+        elif 'lagoon' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bl)
+            
+        elif 'bleach' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bleach)
+            
+        elif 'blend' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bs)  
+            
+        elif 'blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bc)
+            
+        elif 'blockade' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bbb)
+            
+        elif 'exorcist' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.be)
+            
+        elif 'period' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bp)
+            
+        elif 'spring' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bsr)
+            
+        elif 'boarding' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bsj) 
+            
+        elif 'boruto' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.boruto)
+            
+        elif 'bottom' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.btc) 
+            
+        elif 'bungou' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bungo)
+            
+        elif 'kabaddi' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bk)
+            
+        elif 'blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
             
             
             
