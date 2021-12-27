@@ -12,6 +12,7 @@ bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 
 with bot:
     @bot.on(events.NewMessage(pattern="^/anime (.*)"))
+    query = event.pattern_match.group(1)
     async def start(event):
  
         if 'naruto shippuden' in event.pattern_match.group(1):
@@ -139,6 +140,11 @@ with bot:
             
             
             
+#----------------------------------------list B------------------------------------------------------------------------------#            
+            
+        elif 'beginning' in event.pattern_match.group(1):
+            await event.reply('Download Link For {query} 🤍👇🏻',buttons=link.b)
+           
             
             
             
@@ -172,8 +178,9 @@ with bot:
  #index buttons mode 
 
     @bot.on(events.NewMessage(pattern="^/index"))
+    txt = '🤍 Choose Any Button To Get The Animes That Can Download Using /anime <name> 🤍'
     async def index(event):
-            await event.reply('🤍 Choose Any Button To Get The Anime List 🤍',buttons=[[ Button.inline('A', data =b'a')],])
+            await event.reply(txt,buttons=[[ Button.inline('A', data =b'a')],])
             
             
             
