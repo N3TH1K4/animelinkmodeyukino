@@ -146,7 +146,7 @@ with bot:
         elif 'beginning' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.b)
            
-         elif 'baccano' in event.pattern_match.group(1):
+        elif 'baccano' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bac)
             
         elif 'back' in event.pattern_match.group(1):
