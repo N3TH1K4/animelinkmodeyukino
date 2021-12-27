@@ -258,7 +258,7 @@ with bot:
         
         #leave
         elif event.data == b'left':
-                await event.delete()
+                await event.delete(txt)
         
         #back mod
         elif event.data == b'back':
