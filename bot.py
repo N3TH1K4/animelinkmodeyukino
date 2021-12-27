@@ -9,6 +9,7 @@ bot_token = '2025919134:AAGAyAXR9hTJZu6v75-5ho8ao95mcppXacU'
 # We have to manually call "start" if we want an explicit bot token
 bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 txt = '🤍 Choose Any Button To Get The Animes That Can Download Using /anime <name> 🤍'
+query = event.pattern_match.group(1)
 
 with bot:
     @bot.on(events.NewMessage(pattern="^/anime (.*)"))
@@ -143,7 +144,7 @@ with bot:
 #----------------------------------------list B------------------------------------------------------------------------------#            
             
         elif 'beginning' in event.pattern_match.group(1):
-            await event.reply('Download Link For  🤍👇🏻',buttons=link.b)
+            await event.reply('Download Link For {query}  🤍👇🏻',buttons=link.b)
            
             
             
