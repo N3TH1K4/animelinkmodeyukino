@@ -607,7 +607,7 @@ with bot:
         
         
         elif event.data == b'd':
-            await event.edit(""" **Anime Names Started with Letter C**
+            await event.edit(""" **Anime Names Started with Letter D**
 
 🤍 `D.Gray-Man`
 🤍 `Danganronpa`
