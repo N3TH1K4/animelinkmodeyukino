@@ -479,7 +479,7 @@ with bot:
     
 #--------------------------------------list else-------------------------------------#            
         else:
-            await bot.send_sticker("CAACAgUAAx0CZJRACwACCkFhzFGBIsJu5crwkkXi08pdUMmIBgAC4QYAAn5ncyba4FPm_fvrBiME")
+            await event.reply("I Don't Have The Link For The Anime You Were Searching..Use /index cmd To Get The Anime List ")
             
             
 
