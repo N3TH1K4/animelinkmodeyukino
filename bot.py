@@ -350,8 +350,134 @@ with bot:
             await event.reply(dwn,buttons=link.crg)
         elif 'cross' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.crg)
+        
+#--------------------------------------list D-----------------------------------------#        
+        elif 'Gray' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gray)
+        elif 'gray' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gray)
+
+
+        elif 'dangan' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dan)
+        elif 'Dangan' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dan)
+
+
+        elif 'DanMachi' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.danma)
+        elif 'danmachi' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.danma)
+
+
+        elif 'Darker' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dtb)
+        elif 'darker' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dtb)
+
+
+        elif 'darwin' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.darling)
+        elif 'Darwin' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.darling)
+
+
+        elif 'Date' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dal)
+        elif 'date' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dal)
+
+
+        elif 'death' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dn)
+        elif 'Death' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dn)
+
+
+        elif 'Death' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dp)
+        elif 'Death Parade' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dp)
+
+
+        elif 'deca' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dd)
+        elif 'Deca' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dd)
+
+
+        elif 'Demon' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ds)
+        elif 'demon' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ds)
+
+
+        elif 'dennou' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.denn)
+        elif 'Dennou' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.denn)
+
+
+        elif 'conan' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dc)
+        elif 'Conan' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dc)
+
+
+        elif 'Detroit' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dmc)
+        elif 'detroit' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dmc)
+
+
+        elif 'Devilman' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dmcb)
+        elif 'devilman' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dmcb)
+
+
+        elif 'domestic' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.domes)
+        elif 'Dosmestic' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.domes)
+
+
+        elif 'Nagatoro' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.nagato)
+        elif 'nagotoro' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.nagato)
             
             
+        elif 'Dorohe' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dorohe)
+        elif 'dorohe' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dorohe)
+        
+        elif 'dororo' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dororo)
+        elif 'Dororo' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dororo)
+        
+
+        elif 'dragon' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.drgb)
+        elif 'Dragon' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.drgb)
+
+            
+        elif 'dr stone' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.drstone)
+        elif 'Dr Stone' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.drstone)
+    
+        elif 'durara' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.durara)
+        elif 'Durara' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.durara)
+        
+        
+    
+#--------------------------------------list else-------------------------------------#            
         else:
             await event.reply("I Don't Have The link For The Anime You were seaching..use /index cmd to get the anime list")
             
@@ -386,7 +512,7 @@ with bot:
 
     @bot.on(events.NewMessage(pattern="^/index"))
     async def index(event):
-            await event.reply(txt,buttons=[[ Button.inline('A', data =b'a'),Button.inline('B', data =b'b'),Button.inline('C', data =b'c')],[ Button.inline('Back', data =b'left')],])
+            await event.reply(txt,buttons=[[ Button.inline('A', data =b'a'),Button.inline('B', data =b'b'),Button.inline('C', data =b'c'),Button.inline('D', data =b'd')],[ Button.inline('Back', data =b'left')],])
             
             
             
@@ -480,7 +606,33 @@ with bot:
        
         
         
-        
+        elif event.data == b'd':
+            await event.edit(""" **Anime Names Started with Letter C**
+
+🤍 `D.Gray-Man`
+🤍 `Danganronpa`
+🤍 `DanMachi : Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka` 
+🤍 `Darker than BLACK`
+🤍 `Darling in the FRANXX`
+🤍 `Darwin's Game`
+🤍 `Date A Live`
+🤍 `Death Note`
+🤍 `Death Parade`
+🤍 `Deca-Dence`
+🤍 `Demon Slayer` 
+🤍 `Dennou Coil`
+🤍 `Detective Conan`
+🤍 `Detroit Metal City`
+🤍 `Devilman Crybaby`
+🤍 `Domestic Girlfriend`
+🤍 `Don't Toy With Me Nagatoro san : Ijiranaide, Nagatoro-san`
+🤍 `Dorohedoro`
+🤍 `Dororo`
+🤍 `Dragon Ball`
+🤍 `Dr. Stone` 
+🤍 `Durarara!!`
+            
+  @Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])              
         
         
         
@@ -516,7 +668,7 @@ with bot:
         
         #back mod
         elif event.data == b'back':
-                await event.edit(txt,buttons=[[ Button.inline('A', data =b'a'),Button.inline('B', data =b'b'),Button.inline('C', data =b'c')],[ Button.inline('Back', data =b'left')],])
+                await event.edit(txt,buttons=[[ Button.inline('A', data =b'a'),Button.inline('B', data =b'b'),Button.inline('C', data =b'c'),Button.inline('D', data =b'd')],[ Button.inline('Back', data =b'left')],])
                 
                 
 
