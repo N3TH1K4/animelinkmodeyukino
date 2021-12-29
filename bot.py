@@ -476,10 +476,10 @@ with bot:
             await event.reply(dwn,buttons=link.durara)
         
         
-    
+#await event.reply("I Don't Have The Link For The Anime You Were Searching..Use /index cmd To Get The Anime List ")    
 #--------------------------------------list else-------------------------------------#            
         else:
-            await event.reply("I Don't Have The Link For The Anime You Were Searching..Use /index cmd To Get The Anime List ")
+            await bot.send_file("CAACAgUAAx0CZJRACwACCkFhzFGBIsJu5crwkkXi08pdUMmIBgAC4QYAAn5ncyba4FPm_fvrBiME")
             
             
 
