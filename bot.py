@@ -386,7 +386,7 @@ with bot:
 
     @bot.on(events.NewMessage(pattern="^/index"))
     async def index(event):
-            await event.reply(txt,buttons=[[ Button.inline('A', data =b'a'),Button.inline('B', data =b'b')],[ Button.inline('Back', data =b'left')],])
+            await event.reply(txt,buttons=[[ Button.inline('A', data =b'a'),Button.inline('B', data =b'b'),Button.inline('C', data =b'c')],[ Button.inline('Back', data =b'left')],])
             
             
             
@@ -425,7 +425,7 @@ with bot:
 🤍 `Azur Lane`
 
 @Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])
-        
+                
         elif event.data == b'b':
             await event.edit(""" **Anime Names Started with Letter B**
 
@@ -444,7 +444,7 @@ with bot:
 🤍 ` Black Butler`
 🤍 `Black Clover` 
 🤍 `Black Lagoon`
-🤍  `Bleach`
+🤍 `Bleach`
 🤍 `Blend S`
 🤍 `Blood +`
 🤍 `Blood-C`
@@ -461,7 +461,23 @@ with bot:
 @Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])
         
         
-        
+        elif event.data == b'b':
+            await event.edit(""" **Anime Names Started with Letter C**
+            
+🤍 `Campione`
+🤍 `Cells at Work!`
+🤍 `Charlotte`
+🤍 `Chihayafuru`
+🤍 `Clannad`
+🤍 `Classroom of the Elite`
+🤍 `Code Geass`
+🤍 `Combatants Will Be Dispatched!`
+🤍 `Corpse Party`
+🤍 `Cowboy Bebop`
+🤍 `Cross Game`            
+            
+ @Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])           
+       
         
         
         
@@ -500,7 +516,7 @@ with bot:
         
         #back mod
         elif event.data == b'back':
-                await event.edit(txt,buttons=[[ Button.inline('A', data =b'a'),Button.inline('B', data =b'b')],[ Button.inline('Back', data =b'left')],])
+                await event.edit(txt,buttons=[[ Button.inline('A', data =b'a'),Button.inline('B', data =b'b'),Button.inline('C', data =b'c')],[ Button.inline('Back', data =b'left')],])
                 
                 
 
