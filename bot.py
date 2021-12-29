@@ -439,9 +439,9 @@ with bot:
 🤍 `Barakamon`
 🤍 `Beastars`
 🤍 `Beck: Mongolian Chop Squad`
-🤍  `Beelzebub`
+🤍 `Beelzebub`
 🤍 `Beyond the Boundary`
-🤍 ` Black Butler`
+🤍 `Black Butler`
 🤍 `Black Clover` 
 🤍 `Black Lagoon`
 🤍 `Bleach`
@@ -461,7 +461,7 @@ with bot:
 @Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])
         
         
-        elif event.data == b'b':
+        elif event.data == b'c':
             await event.edit(""" **Anime Names Started with Letter C**
             
 🤍 `Campione`
