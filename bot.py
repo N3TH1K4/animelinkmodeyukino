@@ -350,6 +350,12 @@ with bot:
             await event.reply(dwn,buttons=link.blood)
         elif 'Blood' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.blood)
+            
+            
+        else:
+            await event.reply("I Don't Have The link For The Anime You were seaching..use /index cmd to get the anime list")
+            
+            
 
 
            
