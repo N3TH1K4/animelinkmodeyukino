@@ -226,41 +226,64 @@ with bot:
             
         elif 'blend' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bs)  
+        elif 'Blend' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bs) 
             
         elif 'blood' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bc)
+        elif 'Blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bc)    
             
         elif 'blockade' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bbb)
+        elif 'Blockade' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bbb)    
             
         elif 'exorcist' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.be)
+        elif 'Exorcist' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.be)
             
         elif 'period' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bp)
+        elif 'Period' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bp)
             
         elif 'spring' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bsr)
+        elif 'Spring' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bsr)
             
         elif 'boarding' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bsj) 
+        elif 'Boarding' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bsj)
             
         elif 'boruto' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.boruto)
+        elif 'Boruto' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.boruto)   
+            
             
         elif 'bottom' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.btc) 
+        elif 'Bottom' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.btc) 
             
         elif 'bungou' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bungo)
+        elif 'Bungou' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bungo)
             
         elif 'kabaddi' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bk)
+        elif 'Kabaddi' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bk)
             
         elif 'blood' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.blood)
-            
-            
+        elif 'Blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)    
             
             
             
@@ -308,7 +331,7 @@ with bot:
     @bot.on(events.CallbackQuery)
     async def callback(event):
         if event.data == b'a':
-            await event.edit("""Anime Names Started with Letter A
+            await event.edit(""" **Anime Names Started with Letter A**
 
 🤍 `A Place Further Than The Universe`
 🤍 `A Silent Voice: Koe no katachi`
@@ -332,10 +355,36 @@ with bot:
 @Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])
         
         elif event.data == b'b':
-            await event.edit("""Anime Names Started with Letter B
+            await event.edit(""" **Anime Names Started with Letter B**
 
 🤍 `B: The Beginning`
-
+🤍 `Baccano!`
+🤍 `Backflip`
+🤍 `Bakemonogatari`
+🤍 `Baki`
+🤍 `Bakuman`
+🤍 `Banana Fish`
+🤍 `Barakamon`
+🤍 `Beastars`
+🤍 `Beck: Mongolian Chop Squad`
+🤍  `Beelzebub`
+🤍 `Beyond the Boundary`
+🤍 ` Black Butler`
+🤍 `Black Clover` 
+🤍 `Black Lagoon`
+🤍  `Bleach`
+🤍 `Blend S`
+🤍 `Blood +`
+🤍 `Blood-C`
+🤍 `Blood Blockade Battlefront`
+🤍 `Blue Exorcist`
+🤍 `Blue Period`
+🤍 `Blue Spring Ride : Ao Haru Ride`
+🤍 `Boarding School Juliet`
+🤍 `Boruto: Naruto Next Generations`
+🤍 `Bottom-Tier Character Tomozaki`
+🤍 `Bungou Stray Dogs`
+🤍 `Burning Kabaddi`
 
 @Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])
         
