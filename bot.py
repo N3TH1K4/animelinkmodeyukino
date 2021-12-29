@@ -25,7 +25,7 @@ with bot:
             
             
  #Letter "A"           
-        elif 'a place further than the universe' in event.pattern_match.group(1):
+        elif 'A Place Further Than The Universe' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.placefur)
         elif 'place further' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.placefur) 
@@ -33,17 +33,17 @@ with bot:
             
         elif 'silent voice' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.slientv)
-        elif 'a silent voice' in event.pattern_match.group(1):
+        elif 'A Silent Voice' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.slientv)
             
             
-        elif 'whisker away' in event.pattern_match.group(1):
+        elif 'A Whisker Away' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.whiskera)
         elif 'whisker' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.whiskera)
             
             
-        elif 'after the rain' in event.pattern_match.group(1):
+        elif 'After The Rain' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.afterrain)
         elif 'rain' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.afterrain)
@@ -51,7 +51,7 @@ with bot:
             
         elif 'ahiru no' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.ahiruno)
-        elif 'ahiru no sora' in event.pattern_match.group(1):
+        elif 'Ahiru No Sora' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.ahiruno)
             
             
@@ -63,7 +63,7 @@ with bot:
             
         elif 'akame' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.akame)
-        elif 'akame ga kill' in event.pattern_match.group(1):
+        elif 'Akame Ga Kill' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.akame)
 
             
@@ -75,14 +75,14 @@ with bot:
             
         elif 'akudama' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.akudama)
-        elif 'akudama drive' in event.pattern_match.group(1):
+        elif 'Akudama Drive' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.akudama)      
             
  
             
         elif 'angel' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.angel)
-        elif 'angel beats' in event.pattern_match.group(1):
+        elif 'Angel Beats' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.angel)   
             
             
@@ -102,19 +102,19 @@ with bot:
             
         elif 'aoi' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.aoi)
-        elif 'Aoi bungaku' in event.pattern_match.group(1):
+        elif 'Aoi Bungaku' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.aoi)  
             
             
             
         elif 'appare' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.appare)
-        elif 'Appare ranman' in event.pattern_match.group(1):
+        elif 'Appare Ranman' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.appare)  
             
             
             
-        elif 'assassination classroom' in event.pattern_match.group(1):
+        elif 'Assassination Classroom' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.ass)
         elif 'assassination' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.ass)  
@@ -123,12 +123,12 @@ with bot:
             
         elif 'astra' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.astra)
-        elif 'Astra lost in the space' in event.pattern_match.group(1):
+        elif 'Astra Lost In The Space' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.astra)      
             
             
             
-        elif 'attack on titan' in event.pattern_match.group(1):
+        elif 'Attack On Titan' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.aot)
         elif 'attack' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.aot)  
@@ -136,7 +136,7 @@ with bot:
 
         elif 'azure' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.azure)
-        elif 'Azure lane' in event.pattern_match.group(1):
+        elif 'Azure Lane' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.azure)
             
             
@@ -145,51 +145,84 @@ with bot:
             
         elif 'beginning' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.b)
-           
+        elif 'Beginning' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.b)
+            
         elif 'baccano' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bac)
+         elif 'Baccano' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bac)    
             
         elif 'back' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.back) 
+        elif 'Back' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.back)
             
         elif 'bake' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bake)
+        elif 'Bake' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bake)
             
         elif 'baki' in event.pattern_match.group(1):
-            await event.reply(dwn,buttons=link.baki)  
+            await event.reply(dwn,buttons=link.baki)
+        elif 'Baki' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.baki)    
             
         elif 'baku' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.baku)
+        elif 'Baku' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.baku)
             
         elif 'banana' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bana) 
+        elif 'Banana' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bana)
             
         elif 'baraka' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bara)
+        elif 'Baraka' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bara)
             
         elif 'beast' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bea)
+        elif 'Beast' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bea)
             
         elif 'beck' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.beck)
+        elif 'Beck' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.beck)
             
         elif 'beelz' in event.pattern_match.group(1):
-            await event.reply(dwn,buttons=link.bee)  
+            await event.reply(dwn,buttons=link.bee)
+        elif 'Beelz' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bee)    
             
         elif 'beyond' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.beyon)
+        elif 'Beyond' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.beyon)
             
         elif 'butler' in event.pattern_match.group(1):
-            await event.reply(dwn,buttons=link.bb)  
+            await event.reply(dwn,buttons=link.bb)
+        elif 'Butler' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bb)
+            
             
         elif 'clover' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bc)
+        elif 'Clover' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bc)
             
         elif 'lagoon' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bl)
+        elif 'Lagoon' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bl)
             
         elif 'bleach' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bleach)
+        elif 'Bleach' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.bleach)    
             
         elif 'blend' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bs)  
