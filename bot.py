@@ -286,7 +286,7 @@ with bot:
             await event.reply(dwn,buttons=link.blood)    
  #----------------------------list C -----------------------------#           
 
-         elif 'campione' in event.pattern_match.group(1):
+        elif 'campione' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.chm)
         elif 'Campione' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.chm)
