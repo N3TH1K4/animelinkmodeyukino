@@ -479,7 +479,7 @@ with bot:
     
 #--------------------------------------list else-------------------------------------#            
         else:
-            await event.sticker("CAACAgUAAx0CZJRACwACCkFhzFGBIsJu5crwkkXi08pdUMmIBgAC4QYAAn5ncyba4FPm_fvrBiME")
+            await event.reply.sticker(CAACAgUAAx0CZJRACwACCkFhzFGBIsJu5crwkkXi08pdUMmIBgAC4QYAAn5ncyba4FPm_fvrBiME)
             
             
 
