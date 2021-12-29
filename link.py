@@ -63,5 +63,16 @@ blood=[Button.url('Blood+','https://t.me/Blood_Series/6')]
 
 
 #list C
+chm=[Button.url('Campione!','http://t.me/Campione_Dual')]
+caw=[Button.url('Cells at Work! : Hataraku Saibou','http://t.me/Cells_At_Work_Series')]
+char=[Button.url('Charlotte ','http://t.me/Charlotte_Dual')]
+chi=[Button.url('Chihayafuru','https://t.me/Chihayafuru_Series')]
+cla=[Button.url('Clannad','http://t.me/Clannad_Dual')]
+ce=[Button.url('Classroom Of The Elite','https://t.me/Classroom_Of_The_Elite_Dual')]
+cg=[Button.url('Code Geass','http://t.me/Code_Geass_Dual')]
+cwd=[Button.url('Combatants Will Be Dispatched!','https://t.me/CombatantsWill_BeDispatched')]
+cp=[Button.url('Corpse Party: Tortured Souls','https://t.me/Corpse_Party_series')]
+cb=[Button.url('Cowboy Bebop','http://t.me/Cowboy_Dual')]
+crg=[Button.url('Cross Game','http://t.me/Cross_Game')]
 
 
