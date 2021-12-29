@@ -284,9 +284,75 @@ with bot:
             await event.reply(dwn,buttons=link.blood)
         elif 'Blood' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.blood)    
-            
-            
-            
+ #----------------------------list C -----------------------------#           
+
+         elif 'blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+        elif 'Blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+
+
+        elif 'blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+        elif 'Blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+
+
+        elif 'blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+        elif 'Blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+
+
+        elif 'blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+        elif 'Blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+
+
+        elif 'blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+        elif 'Blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+
+
+        elif 'blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+        elif 'Blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+
+
+        elif 'blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+        elif 'Blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+
+
+        elif 'blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+        elif 'Blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+
+
+        elif 'blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+        elif 'Blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+
+
+        elif 'blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+        elif 'Blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+
+
+        elif 'blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+        elif 'Blood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.blood)
+
+
+           
             
             
             
