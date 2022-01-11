@@ -229,9 +229,9 @@ with bot:
         elif 'Blend' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bs) 
             
-        elif 'blood' in event.pattern_match.group(1):
+        elif 'blood c' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bc)
-        elif 'Blood' in event.pattern_match.group(1):
+        elif 'Blood c' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.bc)    
             
         elif 'blockade' in event.pattern_match.group(1):
@@ -638,9 +638,9 @@ with bot:
             await event.reply(dwn,buttons=link.gs)
             
                 
-        elif 'golden' in event.pattern_match.group(1):
+        elif 'Time' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.gk)
-        elif 'Golden' in event.pattern_match.group(1):
+        elif 'time' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.gk)
             
                 
@@ -656,9 +656,9 @@ with bot:
             await event.reply(dwn,buttons=link.gb)
             
                 
-        elif 'Great' in event.pattern_match.group(1):
+        elif 'Pretender' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.gp)
-        elif 'great' in event.pattern_match.group(1):
+        elif 'pretender' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.gp)
             
                 
