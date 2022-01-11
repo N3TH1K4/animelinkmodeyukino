@@ -101,3 +101,132 @@ drgb=[Button.url('Dragon Ball(Collection)','https://t.me/Dragon_Ball_Collections
 drstone=[Button.url('Dr.Stone','https://t.me/DrStone_Dual')]
 durara=[Button.url('Durarara!!','https://t.me/durarara_dual')]
 
+
+
+
+#list E
+
+ez=[Button.url('Edens Zero','http://t.me/Edens_Zero_Sub')]
+el=[Button.url('Elfen Lied','https://t.me/Elfen_Lied_Dual')]
+era=[Button.url('Erased: Boku dake ga inai machi','http://t.me/Erased_dual')]
+ep=[Button.url('Ergo Proxy','http://t.me/ergo_proxy_anime')]
+ems=[Button.url('Eromanga Sensei','https://t.me/Eromanga_Sensei_Series')]
+es=[Button.url('Eureka Seven','https://t.me/Eureka_Seven_Series')]
+
+
+#list F
+
+
+ft=[Button.url('Fairy Tail','http://t.me/Fairy_Tail_Series')]
+fs=[Button.url('Fate Series','https://t.me/Fate_Series_Sub')]
+ff=[Button.url('Fire Force','https://t.me/Fire_Force_Dual')]
+fw=[Button.url('Fireworks: Uchiage hanabi','https://t.me/Fireworks_AnimeMovie')]
+fon=[Button.url('Fist of The North Star','https://t.me/FistOfThe_NorthStar')]
+flcl=[Button.url('Fooly Cooly - FLCL ','https://t.me/F_L_C_L')]
+food=[Button.url('Food Wars : Shokugeki no Souma','http://t.me/Food_Wars_Dual')]
+fb=[Button.url('Fruits Basket','http://t.me/Fruits_Basket_Series')]
+fnw=[Button.url('From The New World','http://t.me/From_The_New_World')]
+fdr=[Button.url('Full Dive RPG','http://t.me/Full_Dive_RPG')]
+fa=[Button.url('Fullmetal Alchemist','https://t.me/Fullmetal_Alchemist_Dual/3')]
+fab=[Button.url('Fullmetal Alchemist : Brotherhood','https://t.me/Fullmetal_Alchemist_Dual/168')]
+future=[Button.url('Future Diary; Mirai nikki','http://t.me/Future_Diary_Dual')]
+fuu=[Button.url('Fuuka','http://t.me/Fuuka_Series')]
+
+
+#list G
+
+gan=[Button.url('Gankutsuou: The Count of Monte Cristo','http://t.me/GankutsuouTheCountofMonteCristo')]
+gin=[Button.url('Gintama','http://t.me/Gintama_sub')]
+gf=[Button.url('Girlfriend, Girlfriend : Kanojo mo Kanojo','https://t.me/GirlfriendGirlfriendSeries')]
+glt=[Button.url("Girls' Last Tour",'http://t.me/girls_last_tour_dual')]
+giv=[Button.url('Given','https://t.me/Given_Series')]
+gs=[Button.url('Goblin Slayer','http://t.me/Goblin_Slayer_Dual')]
+gk=[Button.url('Golden Kamuy','https://t.me/GoldenKamuy')]
+gt=[Button.url('Golden Time','https://t.me/GoldenTimeSeries')]
+gb=[Button.url('Grand Blue','https://t.me/Grand_Blue_Sub')]
+gp=[Button.url('Great Pretender','https://t.me/Great_Pretender_Sub')]
+gto=[Button.url('Great Teacher Onizuka ','http://t.me/GTO_Dual')]
+gc=[Button.url('Guilty Crown','http://t.me/Guilty_Crown_Series')]
+
+
+#list H
+
+hai=[Button.url('Haikyuu','http://t.me/Haikyuu_Dual')]
+haji=[Button.url('Hajime No Ippo','https://t.me/HajimeNoIppo_Dual')]
+hak=[Button.url('Hakkenden','http://t.me/Hakkenden_Touhou_Hakken')]
+hana=[Button.url('Hanamonogatari','https://t.me/Monogatari_Series_Sub/71')]
+handa=[Button.url('Handa-Kun','http://t.me/Handakun_dual')]
+hea=[Button.url("Heaven's Design Team",'https://t.me/Heavens_DesignTeam')]
+Hello=[Button.url('Hello World','https://t.me/Hello_World_AnimeMovie')]
+hell=[Button.url('Hellsing','https://t.me/Hellsing_Series/3')]
+hellu=[Button.url('Hellsing Ultimate','https://t.me/Hellsing_Series/26')]
+higeh=[Button.url('Higehiro','http://t.me/higehiro_series')]
+highr=[Button.url('High-Rise Invation','https://t.me/High_Rise_Invasion_Anime')]
+dxd=[Button.url('High School DxD','https://t.me/Highschool_DxD_Dual')]
+hsod=[Button.url('High School of Dead','https://t.me/High_School_of_the_Dead_Dual')]
+higu=[Button.url('Higurashi','https://t.me/Higurashi_2020')]
+himo=[Button.url('Himouto! Umaru-Chan','http://t.me/HimoutoUmaruChanR')]
+hinam=[Button.url('Hinamatsuri','http://t.me/Hinamatsuri_Dual')]
+hitman=[Button.url('Hitman Reborn','https://t.me/Hitman_Reborn_Sub')]
+hitori=[Button.url('Hitori No Shita: The Outcast','http://t.me/HitoriNoShita_TheOutcast')]
+honobo=[Button.url('Honobono Log','http://t.me/Honobono_Log')]
+hori=[Button.url('Horimiya','https://t.me/Horimiya_Series')]
+hnsdl=[Button.url('How Not To Summon A Demon Lord','https://t.me/HowNotToSummon_ADemonLord')]
+hxh=[Button.url('Hunter x Hunter 1999','https://t.me/Hunter_X_Hunter_Dual/811')]
+hxh2=[Button.url('Hunter x Hunter 2011','https://t.me/Hunter_X_Hunter_Dual/1315')]
+hyou=[Button.url('Hyouka','http://t.me/Hyouka_dual')]
+
+
+
+#list I
+
+iwe=[Button.url('I Want To Eat Your Pancreas',"https://t.me/I_Want_ToEat_Your_Pancreas')]
+ik=[Button.url("I've Been Killing Slimes",'https://t.me/IveBeenKillingSlimesFor300Years')]
+idi=[Button.url('ID: Invaded','https://t.me/ID_Invaded_Series')]
+ip=[Button.url('Idoly Pride','https://t.me/Idoly_Pride_Series')]
+ine=[Button.url('Inazuma Eleven','https://t.me/Inazuma_Eleven_Dual')]
+ini=[Button.url('Initial D','http://t.me/initialdcomplete')]
+inu=[Button.url('InuYasha','https://t.me/InuYasha_Series')]
+inuy=[Button.url('Inuyashiki','http://t.me/Inuyashiki_Series')]
+iam=[Button.url('Irregular At Magic High School','http://t.me/Irregular_at_Magic_High_School')]
+ilo=[Button.url("It's Too Sick To Call It Love",'http://t.me/Koikimo_series')]
+iwaka=[Button.url('Iwakakeru','https://t.me/Sport_Climbing_Girls')]
+into=[Button.url("Into The Forest Of Fireflies' light",'https://t.me/Hotarubi_No_Mori_E_Movie')]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
