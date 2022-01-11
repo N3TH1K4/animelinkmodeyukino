@@ -475,7 +475,229 @@ with bot:
         elif 'Durara' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.durara)
         
+#------------------------------List E--------------------------------------------------------------------------#
+
+            
+        elif 'edens' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ez)
+        elif 'Edens' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ez)
+            
+   
+            
+        elif 'Elfen' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.el)
+        elif 'elfen' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.el)
+            
+                
+        elif 'erased' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.era)
+        elif 'Erased' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.era)
+            
+                
+        elif 'Ergo' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ep)
+        elif 'ergo' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ep)
+            
+                
+        elif 'Eromanga' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ero)
+        elif 'eromanga' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ero)
+            
+                
+        elif 'Eureka' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.es)
+        elif 'eureka' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.es)
+            
+     #--------------------------list f--------------------------------#           
+        elif 'Fairy' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ft)
+        elif 'fairy' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ft)
+            
+               
+        elif 'Fate' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fs)
+        elif 'fate' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fs)
+            
+                
+        elif 'Fire' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ff)
+        elif 'fire' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ff)
+            
+                
+        elif 'fireworks' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fw)
+        elif 'Fireworks' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fw)
+            
+                
+        elif 'Fist' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fon)
+        elif 'fist' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fon)
+            
+                
+        elif 'Fooly' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.flcl)
+        elif 'fooly' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.flcl)
+            
+                
+        elif 'Food' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.food)
+        elif 'food' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.food)
+            
+     
+            
+        elif 'Fruits' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fb)
+        elif 'fruits' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fb)
+            
+                
+        elif 'From' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fnw)
+        elif 'from' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fnw)
+            
+                
+        elif 'dive' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fdr)
+        elif 'Dive' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fdr)
+            
+                
+        elif 'Fullmetal' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fa)
+        elif 'fullmetal' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fa)
+            
+                
+        elif 'brotherhood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fab)
+        elif 'Brotherhood' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fab)
+            
+                
+        elif 'Future' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.future)
+        elif 'future' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.future)
+            
+                
+        elif 'Fuuka' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fuu)
+        elif 'fuuka' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.fuu)
+
+            
+  #----------------------------List G------------------------------#          
+            
+        elif 'Gankut' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gan)
+        elif 'gankut' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gan)
+            
+                
+        elif 'gintama' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gin)
+        elif 'Gintama' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gin)
+            
+                
+        elif 'kanojo' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gf)
+        elif 'Kanojo' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gf)
+            
+                
+        elif 'girls' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.glt)
+        elif 'Girls' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.glt)
+            
+                
+        elif 'given' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.giv)
+        elif 'Given' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.giv)
+            
+                
+        elif 'Goblin' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gs)
+        elif 'goblin' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gs)
+            
+                
+        elif 'golden' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gk)
+        elif 'Golden' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gk)
+            
+                
+        elif 'golden' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gt)
+        elif 'Golden' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gt)
+            
+                
+        elif 'grand' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gb)
+        elif 'Grand' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gb)
+            
+                
+        elif 'Great' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gp)
+        elif 'great' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gp)
+            
+                
+        elif 'Great' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gto)
+        elif 'great' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gto)
+            
+                
+        elif 'Guilty' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gc)
+        elif 'guilty' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.gc)
+            
         
+#-------------------------list h---------------------------#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
 #await event.reply("I Don't Have The Link For The Anime You Were Searching..Use /index cmd To Get The Anime List ")    
 #--------------------------------------list else-------------------------------------#            
         else:
@@ -512,7 +734,7 @@ with bot:
 
     @bot.on(events.NewMessage(pattern="^/index"))
     async def index(event):
-            await event.reply(txt,buttons=[[ Button.inline('A', data =b'a'),Button.inline('B', data =b'b'),Button.inline('C', data =b'c'),Button.inline('D', data =b'd')],[ Button.inline('Back', data =b'left')],])
+            await event.reply(txt,buttons=[[ Button.inline('A', data =b'a'),Button.inline('B', data =b'b'),Button.inline('C', data =b'c'),Button.inline('D', data =b'd'),Button.inline('E', data =b'e'),Button.inline('F', data =b'f'),Button.inline('G', data =b'g')],[ Button.inline('Back', data =b'left')],])
             
             
             
@@ -634,7 +856,16 @@ with bot:
             
   @Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])              
         
-        
+        elif event.data == b'e':
+            await event.edit("""
+**Anime Names Started with Letter E**
+
+🤍 `Edens Zero`
+🤍 `Elfen Lied`
+🤍 `Erased`
+🤍 `Ergo Proxy`
+🤍 `Eromanga Sensei`
+🤍 `Eureka Seven` """,buttons=[[ Button.inline('Back', data =b'back')],])
         
         
         
@@ -668,7 +899,7 @@ with bot:
         
         #back mod
         elif event.data == b'back':
-                await event.edit(txt,buttons=[[ Button.inline('A', data =b'a'),Button.inline('B', data =b'b'),Button.inline('C', data =b'c'),Button.inline('D', data =b'd')],[ Button.inline('Back', data =b'left')],])
+                await event.edit(txt,buttons=[[ Button.inline('A', data =b'a'),Button.inline('B', data =b'b'),Button.inline('C', data =b'c'),Button.inline('D', data =b'd'),Button.inline('E', data =b'e'),Button.inline('F', data =b'f'),Button.inline('G', data =b'g')],[ Button.inline('Back', data =b'left')],])
                 
                 
 
