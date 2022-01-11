@@ -854,7 +854,7 @@ with bot:
 🤍 `Dr. Stone` 
 🤍 `Durarara!!`
             
-  @Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])              
+@Yukinonthecutebot""",buttons=[[ Button.inline('Back', data =b'back')],])              
         
         elif event.data == b'e':
             await event.edit("""
@@ -865,7 +865,9 @@ with bot:
 🤍 `Erased`
 🤍 `Ergo Proxy`
 🤍 `Eromanga Sensei`
-🤍 `Eureka Seven` """,buttons=[[ Button.inline('Back', data =b'back')],])
+🤍 `Eureka Seven
+
+@Yukinonthecutebot` """,buttons=[[ Button.inline('Back', data =b'back')],])
         
         
         
