@@ -180,7 +180,7 @@ hyou=[Button.url('Hyouka','http://t.me/Hyouka_dual')]
 
 #list I
 
-iwe=[Button.url('I Want To Eat Your Pancreas',"https://t.me/I_Want_ToEat_Your_Pancreas')]
+iwe=[Button.url('I Want To Eat Your Pancreas',"https://t.me/I_Want_ToEat_Your_Pancreas")]
 ik=[Button.url("I've Been Killing Slimes",'https://t.me/IveBeenKillingSlimesFor300Years')]
 idi=[Button.url('ID: Invaded','https://t.me/ID_Invaded_Series')]
 ip=[Button.url('Idoly Pride','https://t.me/Idoly_Pride_Series')]
