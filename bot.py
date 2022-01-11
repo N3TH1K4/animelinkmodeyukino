@@ -638,9 +638,9 @@ with bot:
             await event.reply(dwn,buttons=link.gs)
             
                 
-        elif 'Time' in event.pattern_match.group(1):
+        elif 'kamuy' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.gk)
-        elif 'time' in event.pattern_match.group(1):
+        elif 'Kamuy' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.gk)
             
                 
