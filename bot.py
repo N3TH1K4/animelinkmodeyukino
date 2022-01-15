@@ -11,7 +11,7 @@ bot_token = '2025919134:AAGAyAXR9hTJZu6v75-5ho8ao95mcppXacU'
 bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 txt = '🤍 Choose Any Button To Get The Animes That Can Download Using /anime <name> 🤍'
 dwn = 'Is This The One You Were Searching? Here Some Download Links According To The Searched Query 🤍👇'
-
+print("helo")
 with bot:
     @bot.on(events.NewMessage(pattern="^/meme"))
     async def imgd(event):
