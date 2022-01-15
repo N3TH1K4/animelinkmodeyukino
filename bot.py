@@ -21,9 +21,9 @@ with bot:
         imgs = imgs[3:-1]
         for img in imgs:
             imglink = img.attrs.get("src")
-            requests.get(imglink).content
+            r = requests.get(imglink).content
             with open("img.jpg", "wb") as file:
-                file.write(image)
+                file.write(r.content)
         
         await bot.send_file("img.jpg")
         
