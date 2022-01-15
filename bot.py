@@ -1,5 +1,4 @@
-from bs4 import *
-import os
+from bs4 import BeautifulSoup
 import requests
 import link as link
 #"https://source.unsplash.com/1600x900/?{keyword},{keyword}"
@@ -14,7 +13,33 @@ txt = '🤍 Choose Any Button To Get The Animes That Can Download Using /anime <
 dwn = 'Is This The One You Were Searching? Here Some Download Links According To The Searched Query 🤍👇'
 
 with bot:
-
+    @bot.on(events.NewMessage(pattern="^/meme"))
+    async def imgd(event):
+        page = requests.get("https://waifunet.000webhostapp.com/meme.html")
+        souped = BeautifulSoup(page.content, "html.parser")
+        imgs = souped.find_all("img")
+        imgs = imgs[3:-1]
+        for img in imgs:
+            imglink = img.attrs.get("src")
+            requests.get(imglink).content
+            filename= imglink[imglink.rfind("/"):]
+            with open(filename, "wb") as file:
+                file.write(image)
+        
+        await bot.send_file(imglink)
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     #-------------------anime--------------------------#
     @bot.on(events.NewMessage(pattern="^/anime (.*)"))
     
