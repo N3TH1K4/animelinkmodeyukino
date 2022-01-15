@@ -15,9 +15,9 @@ print("helo")
 with bot:
     @bot.on(events.NewMessage(pattern="^/meme"))
     async def imgd(event):
-        page = requests.get("https://waifunet.000webhostapp.com")
+        page = requests.get("https://waifunet.000webhostapp.com/meme.html")
         souped = BeautifulSoup(page.content, "html.parser")
-        imgs = souped.find_all("img")
+        imgs = souped.find_all("img id")
         for img in imgs:
             imglink = img.attrs.get("src")
             print(imglink)
