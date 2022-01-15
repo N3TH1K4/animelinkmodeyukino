@@ -22,11 +22,10 @@ with bot:
         for img in imgs:
             imglink = img.attrs.get("src")
             image=requests.get(imglink).content
-            filename=imglink[imglink.rfind("/"):]
-            with open(filename, "wb") as file:
+            with open("temp.jpg", "wb+") as file:
                 file.write(image)
         
-        await bot.send_file("me",filename)
+        await bot.send_file("me","temp.jpg")
         
         
         
