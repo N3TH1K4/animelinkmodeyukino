@@ -24,9 +24,9 @@ with bot:
             requests.get(imglink).content
             filename=imglink[imglink.rfind("/"):]
             with open(filename, "wb") as file:
-                file.write(filename)
+                file.write(image)
         
-        await bot.send_file("me",filename)
+        await bot.send_file("me",image)
         
         
         
