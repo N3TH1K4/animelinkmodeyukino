@@ -25,7 +25,7 @@ with bot:
             with open("img.jpg", "wb") as file:
                 file.write(image)
         
-        await bot.send_photo("img.jpg")
+        await bot.reply("done")
         
         
         
