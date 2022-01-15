@@ -1,3 +1,5 @@
+from bs4 import *
+import os
 import requests
 import link as link
 #"https://source.unsplash.com/1600x900/?{keyword},{keyword}"
@@ -15,8 +17,20 @@ with bot:
     
     @bot.on(events.NewMessage(pattern="^/meme (.*)"))
     async def sendpic(event):
-        url = f"https://waifunet.000webhostapp.com/meme.html"
-   
+        def folder_create(images):
+            try:
+                folder_name = "hello"
+        # folder creation
+                os.mkdir(folder_name)
+ 
+    # if folder exists with that name, ask another name
+            except:
+        print("Folder Exist with that name!")
+                folder_create()
+ 
+    # image downloading start
+            download_images(images, folder_name)
+ 
         def download_images(images, folder_name):
    
     # initial count is zero
@@ -108,7 +122,7 @@ with bot:
  
  
 # take url
-        url = input("Enter URL:- ")
+        url ="https://waifunet.000webhostapp.com/meme.html"
  
 # CALL MAIN FUNCTION
         main(url)
