@@ -21,11 +21,11 @@ with bot:
         imgs = imgs[3:-1]
         for img in imgs:
             imglink = img.attrs.get("src")
+            print(imagelink)
             image=requests.get(imglink).content
             with open("temp.jpg", "wb+") as file:
                 file.write(image)
         
-        await bot.send_file("me","temp.jpg")
         
         
         
