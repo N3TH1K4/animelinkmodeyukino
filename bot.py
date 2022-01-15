@@ -25,7 +25,7 @@ with bot:
  
     # if folder exists with that name, ask another name
             except:
-        print("Folder Exist with that name!")
+                print("Folder Exist with that name!")
                 folder_create()
  
     # image downloading start
