@@ -12,6 +12,31 @@ txt = '🤍 Choose Any Button To Get The Animes That Can Download Using /anime <
 dwn = 'Is This The One You Were Searching? Here Some Download Links According To The Searched Query 🤍👇'
 
 with bot:
+    
+    @bot.on(events.NewMessage(pattern="^/meme",outgoing=True))
+    async def sendpic(event):
+        url = f"https://waifunet.000webhostapp.com/meme.html"
+        r = requests.get(url)
+        
+        with open("temp.jpg","wb") as f:
+            f write(r.content)
+        await bot.send_image("temp.jpg")    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #-------------------anime--------------------------#
     @bot.on(events.NewMessage(pattern="^/anime (.*)"))
     
     async def start(event):   
