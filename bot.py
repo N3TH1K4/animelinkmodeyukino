@@ -18,7 +18,6 @@ with bot:
         page = requests.get("https://waifunet.000webhostapp.com/meme.html")
         souped = BeautifulSoup(page.content, "html.parser")
         imgs = souped.find_all("img")
-        imgs = imgs[3:-1]
         for img in imgs:
             imglink = img.attrs.get("src")
             print(imglink)
