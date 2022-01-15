@@ -21,7 +21,7 @@ with bot:
         imgs = imgs[3:-1]
         for img in imgs:
             imglink = img.attrs.get("src")
-            requests.get(imglink).content
+            image=requests.get(imglink).content
             filename=imglink[imglink.rfind("/"):]
             with open(filename, "wb") as file:
                 file.write(image)
