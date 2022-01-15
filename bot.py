@@ -22,9 +22,6 @@ with bot:
         for img in imgs:
             imglink = img.attrs.get("src")
             print(imagelink)
-            image=requests.get(imglink).content
-            with open("temp.jpg", "wb+") as file:
-                file.write(image)
         
         
         
