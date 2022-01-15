@@ -13,7 +13,7 @@ dwn = 'Is This The One You Were Searching? Here Some Download Links According To
 
 with bot:
     
-    @bot.on(events.NewMessage(pattern="^/meme",outgoing=True))
+    @bot.on(events.NewMessage(pattern="^/meme (.*)"))
     async def sendpic(event):
         url = f"https://waifunet.000webhostapp.com/meme.html"
         r = requests.get(url)
