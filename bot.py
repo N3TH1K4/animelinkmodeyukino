@@ -17,7 +17,7 @@ with bot:
     async def imgd(event):
         page = requests.get("https://waifunet.000webhostapp.com/meme.html")
         souped = BeautifulSoup(page.content, "html.parser")
-        imgs = souped.find_all("image")
+        imgs = souped.find_all("src")
         for img in imgs:
             imglink = img.attrs.get("src")
             print(imglink)
