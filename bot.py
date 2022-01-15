@@ -19,7 +19,7 @@ with bot:
         r = requests.get(url)
         
         with open("temp.jpg","wb") as f:
-            f write(r.content)
+            f.write(r.content)
         await bot.send_image("temp.jpg")    
     
     
