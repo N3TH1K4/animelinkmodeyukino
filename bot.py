@@ -25,7 +25,7 @@ with bot:
         
         
         
-    @bot.on(events.NewMessage()
+    @bot.on(events.NewMessage())
     async def sdada(event):
             await event.reply("Bot Is Under A Maintainence So Bot Won't Be online For A While..Please Add @TheMeguminBot")
             
