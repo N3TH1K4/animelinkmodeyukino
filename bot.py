@@ -10,7 +10,7 @@ bot_token = '2025919134:AAGAyAXR9hTJZu6v75-5ho8ao95mcppXacU'
 # We have to manually call "start" if we want an explicit bot token
 bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 txt = '🤍 Choose Any Button To Get The Animes That Can Download Using /anime <name> 🤍'
-dwn = 'Is This The One You Were Searching? Here Some Download Links According To The Searched Query 🤍👇'
+dwn = 'Is This The One You Were Searching? 🤍👇'
 print("Bot Started Successfully!")
 with bot:
         
@@ -394,8 +394,13 @@ with bot:
 
 
         elif 'darwin' in event.pattern_match.group(1):
-            await event.reply(dwn,buttons=link.darling)
+            await event.reply(dwn,buttons=link.darwin)
         elif 'Darwin' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.darwin)
+        
+        elif 'darling' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.darling)
+        elif 'Darling' in event.pattern_match.group(1):
             await event.reply(dwn,buttons=link.darling)
 
 
@@ -693,8 +698,185 @@ with bot:
         
 #-------------------------list h---------------------------#
 
+        elif 'Haikyuu' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hai)
+        elif 'haikyuu' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hai)
+            
+        elif 'hajime' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.haji)
+        elif 'Hajime' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.haji)
+            
+        elif 'Hakkenden' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hak)
+        elif 'hakkenden' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hak)
+            
+        elif 'Hanamonogatari' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hana)
+        elif 'hanamonogatari' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hana)
+            
+        elif 'handa' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.handa)
+        elif 'Handa' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.handa)
+            
+        elif 'Heavens' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hea)
+        elif 'heavens' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hea)
+            
+        elif 'Hello' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hello)
+        elif 'hello' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hello)
+            
+        elif 'hellsing' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hell)
+        elif 'Hellsing' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hell)
+            
+        elif 'Ultimate' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hellu)
+        elif 'ultimate' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hellu)
+            
+        elif 'Higehiro' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.higeh)
+        elif 'higehiro' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.higeh)
+            
+
+        elif 'dxd' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dxd)
+        elif 'DxD' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.dxd)
+            
+        elif 'Invation' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.highr)
+        elif 'invation' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.highr)
+            
+        elif 'High School of Dead' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hsod)
+        elif 'high school of dead' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hsod)
+            
+        elif 'Higurashi' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.higu)
+        elif 'higurashi' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.higu)
+            
+        elif 'Umaru' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.himo)
+        elif 'uamru' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.himo)
+            
+        elif 'Hinamatsuri' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hinam)
+        elif 'hinamatsuri' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hinam)
+            
+        elif 'Hitman' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hitman)
+        elif 'hitman' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hitman)
+            
+        elif 'Hitori' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hitori)
+        elif 'hitori' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hitori)
+            
+        elif 'honobono' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.honobo)
+        elif 'Honobono' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.honobo)
+            
+        elif 'Hori' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hori)
+        elif 'hori' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hori)
+            
+        elif 'Summon' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hnsdl)
+        elif 'summon' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hnsdl)
+            
+        elif 'Hunter' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hxh)
+        elif 'Hunter' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hxh)
+            
+        elif 'Hyouka' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hyou)
+        elif 'hyouka' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.hyou)
+#------------------------list I --------------------------#
 
 
+        elif 'Pancreas' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.iwe)
+        elif 'pancreas' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.iwe)
+            
+        elif 'Slimes' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ik)
+        elif 'slimes' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ik)
+            
+        elif 'id' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.idi)
+        elif 'ID' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.idi)
+            
+        elif 'Idoly' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ip)
+        elif 'idoly' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ip)
+            
+        elif 'Inazuma' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ine)
+        elif 'inazuma' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ine)
+            
+        elif 'Initial' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ini)
+        elif 'initial' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ini)
+            
+        elif 'inuyasha' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.inu)
+        elif 'InuYasha' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.inu)
+            
+
+        elif 'Inuyashiki' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.inuy)
+        elif 'inuyashiki' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.inuy)
+            
+        elif 'Irregular' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.iam)
+        elif 'irregular' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.iam)
+            
+        elif 'Call It Love' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ilo)
+        elif 'call it love' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.ilo)
+            
+        elif 'Iwakakeru' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.iwaka)
+        elif 'iwakakeru' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.iwaka)
+            
+        elif 'fireflies' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.into)
+        elif 'Fireflies' in event.pattern_match.group(1):
+            await event.reply(dwn,buttons=link.into)
+            
 
 
 
@@ -718,7 +900,7 @@ with bot:
 #await event.reply("I Don't Have The Link For The Anime You Were Searching..Use /index cmd To Get The Anime List ")    
 #--------------------------------------list else-------------------------------------#            
         else:
-            await event.reply("I Don't Have The Link For The Anime You Were Searching..Use /index cmd To Get The Anime List ")
+            await event.reply("Not Found! Use /index cmd To Get The Anime List ")
             
             
 
