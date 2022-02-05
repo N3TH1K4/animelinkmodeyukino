@@ -4,10 +4,11 @@ from telethon.sync import TelegramClient ,events
 api_id = 4091096
 api_hash = '6bb0682b4af56456201c3b9d8b99c94a'
 bot_token = '2025919134:AAEiMUp8gZ3W2QD-YAgDpGZXcYol_RfEPWg'
+STRING_SESSION = "BQB9PmJnn8EwkJ6MuyAZExB6-Z2zzAOBZ6Ltb7_bKSaIyUQKsCxi15oX98Qe_6gYpD9d45CgxFK1nDM2efta-V4h0Keo0ahhTB0hMgQnps7iV6P5NCaKNCvsbZglLEtI3jmEvZ_TeFY7vkHKJoWpS5BvnJy2ZJg-DY71SCWrs92PFT3oZVouSSVi15mqq17G6Ae4tf1y8wApUrd0jz5XOQu9DEa12X6reKXDo70JUIVaVaWAQWkRjUbPWJT0K1eCjD-s_2pxisZtpbtQf9SqEA3SNy8_3shknWNQYD5Lp7IsYo7iWNymW8CgFMZSeAJNYOkaBRHDpC-PneMy7DyRs9yRAAAAAHR9PgwA"
 
 # We have to manually call "start" if we want an explicit bot token
 tbot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
-ubot = TelegramClient('anon', api_id, api_hash)
+ubot = TelegramClient('anon',StringSession(STRING_SESSION), api_id, api_hash)
 
 
 with tbot:
