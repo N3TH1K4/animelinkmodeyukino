@@ -8,7 +8,7 @@ bot_token = '2025919134:AAEiMUp8gZ3W2QD-YAgDpGZXcYol_RfEPWg'
 STRING_SESSION = "1BVtsOK0BuyOrsOmanqjqtRki98zGYMZtJE0CoaDRuBmlbw-bGzviSFhA3KhgMnKtUxyr9EDwgswl2ddFqptdD0NbBKRLCspOw9sJFtaIpj6A1XpCcC4d1cgddpROD4zXO2oYUwycDU2qvmyeyetRMwfo6J7-mCji1x66qQX_FWKQ5gkKv1ZY7W0XIf-0jpvJU60e2pGA_pY398QKmGdyK_soCsLVbclgs7QgJPw67-T4ManKid3qGCNUw3BHM8elvebCEBlHdt7IuJy2UmQx2hjStKZpuD0bAarI28yDCV6R1z33VTbJFmVTf-rSG5Ct33uNkva7SDyXnkQo3zcnagdjeWlu30A="
 # We have to manually call "start" if we want an explicit bot token
 tbot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
-ubot = TelegramClient('anon',StringSession(STRING_SESSION), api_id, api_hash)
+ubot = TelegramClient(StringSession(STRING_SESSION), api_id, api_hash)
 
 
 with tbot:
