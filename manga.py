@@ -2,6 +2,7 @@ import asyncio
 from telethon.tl import functions, types
 from telethon.sync import TelegramClient ,events 
 from telethon.sessions import StringSession
+from events import register
 api_id = 4091096
 api_hash = '6bb0682b4af56456201c3b9d8b99c94a'
 bot_token = '2025919134:AAEtaYWwSrYcIQsK7-1zn5aA581bb0hDJNc'
