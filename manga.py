@@ -28,8 +28,8 @@ async def alisve(event):
     async with ubot.conversation("@SagiriiRoBot") as bot_conv:
         await bot_conv.send_message("/read " +ok)
         await asyncio.sleep(5)
-        response = await bot_conv.get_response(link_preview=True)
-        file= response.text
+        response = await bot_conv.get_response()
+        file= response.raw_text
         await m.edit(file)
         
 ubot.start()
