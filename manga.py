@@ -28,7 +28,7 @@ async def alisve(event):
     ok = event.pattern_match.group(1)
     async with ubot.conversation("@SagiriiRoBot") as bot_conv:
         await bot_conv.send_message("/read " +ok)
-        await asyncio.sleep(50)
+        await asyncio.sleep(10)
         response = await bot_conv.get_response()
         await ubot.forward_messages(sender,response)
         await ubot.send_message(sender,"*Manga Downloader* @YukinonTheCutebot\nPlease Don't Block Or Report This Account @waifuNetwork")
