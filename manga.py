@@ -18,7 +18,8 @@ async def alive(event):
     async with ubot.conversation("@SagiriiRoBot") as bot_conv:
         await bot_conv.send_message("/manga"+ok)
         mang = await bot_conv.get_response()
-        await m.edit(mang)
+        mangaa= mang.text
+        await m.edit(mangaa)
         await bot_conv.send_message("💳Credit Card Generator💳")
         await asyncio.sleep(2)
         await bot_conv.send_message(ok)
