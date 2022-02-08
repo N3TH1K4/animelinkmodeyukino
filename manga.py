@@ -29,8 +29,8 @@ async def alisve(event):
         await bot_conv.send_message("/read " +ok)
         await asyncio.sleep(5)
         response = await bot_conv.get_response()
-        file= response.raw_text
-        await m.edit(file)
+        await response.click(text="✅Generate✅")
+        await asyncio.sleep(1)
         
 ubot.start()
 tbot.run_until_disconnected()
