@@ -14,7 +14,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import asyncio
-import sys
 
 from motor import motor_asyncio
 from odmantic import AIOEngine
@@ -33,7 +32,3 @@ db = motor[MONGO_DB]
 
 engine = AIOEngine(motor, MONGO_DB)
 
-try:
-    asyncio.get_event_loop().run_until_complete(motor.server_info())
-except ServerSelectionTimeoutError:
-    sys.exit(log.critical("Can't connect to mongodb! Exiting..."))
