@@ -32,7 +32,7 @@ async def alisve(event):
         await asyncio.sleep(2)
         await response.click(text="Send Files")
         dm=await bot_conv.get_response()
-        dwn =await dm.download_media()
+        dwn =await dm.download_file()
         await tbot.upload_file(dwn)
 ubot.start()
 tbot.run_until_disconnected()
