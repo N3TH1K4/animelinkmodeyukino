@@ -34,7 +34,7 @@ async def alisve(event):
         await response.click(text="Send Files")
         await asyncio.sleep(5)
         dm=await bot_conv.get_response()
-        await tbot.send_file(sender,dm)
+        await tbot.forward_to(sender,dm)
         
 
 
