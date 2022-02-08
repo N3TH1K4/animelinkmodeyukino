@@ -20,7 +20,7 @@ async def alive(event):
         mang = await bot_conv.get_response()
         mangaa= mang.text
         await m.edit(mangaa)
-        await m.edit("Now Copy The Manga ID and Send It As /rmanga <manga_id> <chapter_number>")
+        await m.reply("Now Copy The Manga ID and Send It As /rmanga <manga_id> <chapter_number>")
 @tbot.on(events.NewMessage(pattern="^/rmanga (.*)"))
 async def alisve(event):
     sender = await event.get_sender()
