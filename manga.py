@@ -30,7 +30,7 @@ async def alisve(event):
         await asyncio.sleep(35)
         response = await bot_conv.get_response()
         file= response.text
-        await m.edit(response)
+        await m.edit(file)
         
 ubot.start()
 tbot.run_until_disconnected()
