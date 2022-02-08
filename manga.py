@@ -34,13 +34,9 @@ async def alisve(event):
         await response.click(text="Send Files")
         await asyncio.sleep(5)
         dm=await bot_conv.get_response()
-        if dm == "media":
-            downloaded_file_name = await ubot.download_media("r")
-            try:
-                await m.upload_file(sender,downloaded_file_name)
-            except:
-                await m.reply("damn failed")
-            
+        await m.send_files(dm)
+        
+
 
 ubot.start()
 tbot.run_until_disconnected()
