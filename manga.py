@@ -27,7 +27,9 @@ async def alive(event):
     ok = event.pattern_match.group(1)
     async with ubot.conversation("@SagiriiRoBot") as bot_conv:
         await bot_conv.send_message("/read " +ok)
-        await asyncio.sleep(50)
+        await asyncio.sleep(35)
+        response = await bot_conv.get_response()
+        await asyncio.sleep(1)
         await response.click(text="Send Files")
         await asyncio.sleep(3)
         mang = await bot_conv.get_response()
