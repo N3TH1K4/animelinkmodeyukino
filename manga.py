@@ -27,10 +27,10 @@ async def alisve(event):
     ok = event.pattern_match.group(1)
     async with ubot.conversation("@SagiriiRoBot") as bot_conv:
         await bot_conv.send_message("/read " +ok)
-        await asyncio.sleep(35)
-        response = await bot_conv.get_response()
+        await asyncio.sleep(5)
+        response = await bot_conv.get_dialogs()
         file= response.text
-        await m.edit(file)
+        await m.edit(response)
         
 ubot.start()
 tbot.run_until_disconnected()
