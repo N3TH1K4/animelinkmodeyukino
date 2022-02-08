@@ -27,7 +27,7 @@ async def alive(event):
     ok = event.pattern_match.group(1)
     async with ubot.conversation("@SagiriiRoBot") as bot_conv:
         await bot_conv.send_message("/read " +ok)
-        await asyncio.sleep(30)
+        await asyncio.sleep(45)
         mang = await bot_conv.get_response()
         mangaa= mang.text
         await m.edit(mangaa)
