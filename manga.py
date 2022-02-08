@@ -23,6 +23,7 @@ async def alive(event):
         await m.edit("Now Copy The Manga ID and Send It As /rmanga <manga_id> <chapter_number>")
 @tbot.on(events.NewMessage(pattern="^/rmanga (.*)"))
 async def alisve(event):
+    sender = await event.get_sender()
     m = await event.reply("Searching For The Chap")
     ok = event.pattern_match.group(1)
     async with ubot.conversation("@SagiriiRoBot") as bot_conv:
@@ -31,9 +32,14 @@ async def alisve(event):
         response = await bot_conv.get_response()
         await asyncio.sleep(2)
         await response.click(text="Send Files")
+        await asyncio.sleep(5)
         dm=await bot_conv.get_response()
-        dwn =await dm.download_file()
-        await tbot.upload_file(dwn)
+        if dm == "media":
+            downloaded_file_name = await ubot.download_media("r")
+            try:
+                await tbot.upload_file(sender,downloaded_file_name)
+            
+
 ubot.start()
 tbot.run_until_disconnected()
 ubot.run_until_disconnected()
