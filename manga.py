@@ -22,18 +22,14 @@ async def alive(event):
         await m.edit(mangaa)
         await m.edit("Now Copy The Manga ID and Send It As /rmanga <manga_id> <chapter_number>")
 @tbot.on(events.NewMessage(pattern="^/rmanga (.*)"))
-async def alive(event):
+async def alisve(event):
     m = await event.reply("Searching For The Chap")
     ok = event.pattern_match.group(1)
     async with ubot.conversation("@SagiriiRoBot") as bot_conv:
         await bot_conv.send_message("/read " +ok)
         await asyncio.sleep(35)
         response = await bot_conv.get_response()
-        await asyncio.sleep(1)
-        await response.click(text="Send Files")
-        await asyncio.sleep(3)
-        mang = await bot_conv.get_response()
-        await m.edit(mang)
+        await m.edit(response)
         
 ubot.start()
 tbot.run_until_disconnected()
