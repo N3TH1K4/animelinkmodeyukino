@@ -22,7 +22,7 @@ from pymongo.errors import ServerSelectionTimeoutError
 
 
 MONGO_URI = "mongodb+srv://TROJ3N:Nethika123@cluster0.uppg6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-MONGO_PORT = "27017"
+MONGO_PORT = 27017
 MONGO_DB = "DaisyX"
 
 # Init MongoDB
