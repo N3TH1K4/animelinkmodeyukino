@@ -30,7 +30,6 @@ async def alisve(event):
         await bot_conv.send_message("/read " +ok)
         await asyncio.sleep(50)
         response = await bot_conv.get_response()
-        await asyncio.sleep(2)
         await ubot.forward_messages(sender,response)
         await ubot.send_message(sender,"*Manga Downloader* @YukinonTheCutebot\nPlease Don't Block Or Report This Account @waifuNetwork")
         
