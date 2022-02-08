@@ -30,7 +30,7 @@ async def alisve(event):
         await bot_conv.send_message("/read " +ok)
         await asyncio.sleep(10)
         response = await bot_conv.get_response()
-        await ubot.forward_messages(sender, response)
+        await m.forward_messages(sender, response)
        
 
 ubot.start()
