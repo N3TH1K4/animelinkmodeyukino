@@ -12,7 +12,7 @@ tbot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 ubot = TelegramClient(StringSession(STRING_SESSION), api_id, api_hash)
 
 
-@register(pattern="^/gen (.*)")
+@events.register(pattern="^/gen (.*)")
 async def alive(event):
     m = await event.reply("Generating CC...Pls Weit.")
     ok = event.pattern_match.group(1)
