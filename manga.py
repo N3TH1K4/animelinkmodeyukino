@@ -29,7 +29,7 @@ async def alisve(event):
         await bot_conv.send_message("/read " +ok)
         await asyncio.sleep(5)
         response = await bot_conv.get_response()
-        await response.click(text="✅Generate✅")
+        await response.click(text="Send Files")
         await asyncio.sleep(1)
         
 ubot.start()
