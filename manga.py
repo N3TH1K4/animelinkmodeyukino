@@ -37,7 +37,9 @@ async def alisve(event):
         if dm == "media":
             downloaded_file_name = await ubot.download_media("r")
             try:
-                await tbot.upload_file(sender,downloaded_file_name)
+                await m.upload_file(sender,downloaded_file_name)
+            except:
+                await m.reply("damn failed")
             
 
 ubot.start()
