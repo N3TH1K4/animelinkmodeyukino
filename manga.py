@@ -23,7 +23,7 @@ async def alive(event):
         await m.reply("Now Copy The Manga ID and Send It As /rmanga <manga_id> <chapter_number>")
 @tbot.on(events.NewMessage(pattern="^/rmanga (.*)"))
 async def alisve(event):
-    sender = await event.get_sender()
+    sender = await event.sender_id()
     m = await event.reply("Searching For The Chap")
     ok = event.pattern_match.group(1)
     async with ubot.conversation("@SagiriiRoBot") as bot_conv:
