@@ -4,4 +4,3 @@ bs4
 pymongo
 motor
 odmantic
-aiogram == 2.13
